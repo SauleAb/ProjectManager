@@ -155,3 +155,7 @@ gifdecoder.aar
 glide.aar
 GoogleGson.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+Syncfusion.Maui.Core.dll
+Syncfusion.Maui.Scheduler.dll
+Syncfusion.Maui.Core.aar
+Syncfusion.Maui.Scheduler.aar

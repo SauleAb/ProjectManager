@@ -86,6 +86,10 @@
               "version": "[7.0.96, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[24.2.8, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -198,6 +202,10 @@
               "target": "Package",
               "version": "[7.0.96, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[24.2.8, )"
             }
           },
           "imports": [
@@ -256,6 +264,10 @@
               "target": "Package",
               "version": "[7.0.96, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[24.2.8, )"
             }
           },
           "imports": [
@@ -325,6 +337,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[24.2.8, )"
             }
           },
           "imports": [

@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LandscapeProjectsManager.ContactsPage"
-             Title="ContactsPage">
+             Shell.NavBarIsVisible="false"
+             Title="Contacts">
     <Grid>
     <Image Source="contacts_background.png" Aspect="AspectFill"/>
+        <Label Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
     </Grid>
 </ContentPage>

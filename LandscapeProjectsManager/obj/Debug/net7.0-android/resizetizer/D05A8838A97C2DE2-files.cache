@@ -1,7 +1,11 @@
-﻿obj\Debug\net7.0-android\resizetizer\r\drawable\calendar_background.png
+﻿obj\Debug\net7.0-android\resizetizer\r\drawable\calendarnext.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\calendarprevious.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\calendar_background.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\contacts_background.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\mainpage_background.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\projects_background.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\rightbig.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\rightsmall.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png

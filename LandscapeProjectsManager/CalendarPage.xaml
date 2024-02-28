@@ -1,22 +1,42 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LandscapeProjectsManager.CalendarPage"
-             Title="CalendarPage">
-<Grid>
-    <Image Source="calendar_background.png" Aspect="AspectFill"/>
-    <StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-            <Button Text="Previous" Clicked="OnPreviousMonthClicked"/>
-            <Label Text="{Binding CurrentMonthYear}" HorizontalOptions="CenterAndExpand"/>
-            <Button Text="Next" Clicked="OnNextMonthClicked"/>
-        </StackLayout>
-        
-        <!-- Calendar grid -->
-        <Grid x:Name="calendarGrid" 
-            HorizontalOptions="Center">
-            <!-- Calendar days will be populated here dynamically -->
+             xmlns:scheduler="clr-namespace:Syncfusion.Maui.Scheduler;assembly=Syncfusion.Maui.Scheduler"
+             Shell.NavBarIsVisible="false"
+             Title="Calendar">
+    <Grid>
+        <Image Source="calendar_background.png" Aspect="AspectFill"/>
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" /> 
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <scheduler:SfScheduler x:Name="Scheduler" View="Month"/>
+
+            <!-- Previous Month Image -->
+            <Image Source="calendarprevious.png"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   HorizontalOptions="Start"
+                   VerticalOptions="EndAndExpand"
+                   Grid.Row="1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnPreviousMonthClicked"/>
+                </Image.GestureRecognizers>
+            </Image>
+            
+            <!-- Next Month Image -->
+            <Image Source="calendarnext.png"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   HorizontalOptions="End"
+                   VerticalOptions="EndAndExpand"
+                   Grid.Row="1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnNextMonthClicked"/>
+                </Image.GestureRecognizers>
+            </Image>
         </Grid>
-    </StackLayout>
-</Grid>
+    </Grid>
 </ContentPage>

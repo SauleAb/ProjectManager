@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LandscapeProjectsManager.MainPage">
+             x:Class="LandscapeProjectsManager.MainPage"
+             Shell.NavBarIsVisible="false"
+             Title="AUGALINGA">
 <Grid>
     <Image Source="mainpage_background.png" Aspect="AspectFill"/>
     <ScrollView>
@@ -9,7 +11,7 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
-
+            
             <StackLayout HorizontalOptions="Center">
                     <Label
                         Text="Calendar"

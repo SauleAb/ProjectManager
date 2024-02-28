@@ -549,3 +549,17 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-wi
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\projects_background.scale-100.png
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts_background.scale-100.png
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\projects_background.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rightbig.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rightsmall.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\rightbig.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\rightsmall.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\calendarnext.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\calendarprevious.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendarnext.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendarprevious.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Scheduler.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\en-US\Syncfusion.Maui.Scheduler.resources.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Pompiere-Regular.ttf
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Pompiere-Regular.ttf
