@@ -5,7 +5,21 @@
              Shell.NavBarIsVisible="false"
              Title="Contacts">
     <Grid>
-    <Image Source="contacts_background.png" Aspect="AspectFill"/>
+        <Image Source="contacts_background.png" Aspect="AspectFill"/>
         <Label Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
+        <Grid VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Text="Nurseries" Padding="0, 50" FontSize="50" BackgroundColor="Transparent" Margin="30" TextColor="Black" FontFamily="TitleFont" BorderColor="White"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Transport" Padding="0, 50" FontSize="50" BackgroundColor="Transparent" Margin="30" TextColor="Black" FontFamily="TitleFont" BorderColor="White"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="Manufacture" Padding="0, 50" FontSize="50" BackgroundColor="Transparent" Margin="30" TextColor="Black" FontFamily="TitleFont" BorderColor="White"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Colleagues" Padding="0, 50" FontSize="50" BackgroundColor="Transparent" Margin="30" TextColor="Black" FontFamily="TitleFont" BorderColor="White"/>
+        </Grid>
     </Grid>
 </ContentPage>
