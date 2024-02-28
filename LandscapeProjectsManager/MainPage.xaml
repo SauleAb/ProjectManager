@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.MainPage">
+<Grid>
+    <Image Source="mainpage_background.png" Aspect="AspectFill"/>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <StackLayout HorizontalOptions="Center">
+                    <Label
+                        Text="Calendar"
+                        FontSize="70" 
+                        HorizontalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCalendarLabelTapped"/>
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <BoxView Color="LightBlue" HeightRequest="4" WidthRequest="330" Margin="0,0,0,0" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center">
+            <Label
+                Text="Contacts"
+                FontSize="70"
+                HorizontalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnContactsLabelTapped"/>
+                </Label.GestureRecognizers> 
+            </Label>
+            <BoxView Color="LightGreen" HeightRequest="4" WidthRequest="330" Margin="0,0,0,0" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center">
+            <Label
+                Text="Projects"
+                FontSize="70" 
+                HorizontalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnProjectsLabelTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <BoxView Color="Orange" HeightRequest="4" WidthRequest="330" Margin="0,0,0,0" />
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</Grid>
+</ContentPage>

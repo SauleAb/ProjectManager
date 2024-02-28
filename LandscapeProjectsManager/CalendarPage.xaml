@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.CalendarPage"
+             Title="CalendarPage">
+<Grid>
+    <Image Source="calendar_background.png" Aspect="AspectFill"/>
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button Text="Previous" Clicked="OnPreviousMonthClicked"/>
+            <Label Text="{Binding CurrentMonthYear}" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Next" Clicked="OnNextMonthClicked"/>
+        </StackLayout>
+        
+        <!-- Calendar grid -->
+        <Grid x:Name="calendarGrid" 
+            HorizontalOptions="Center">
+            <!-- Calendar days will be populated here dynamically -->
+        </Grid>
+    </StackLayout>
+</Grid>
+</ContentPage>
