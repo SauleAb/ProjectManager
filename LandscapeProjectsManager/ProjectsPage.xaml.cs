@@ -6,4 +6,8 @@ public partial class ProjectsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+	public class Project
+	{
+		public string Name { get; set; }
+	}
 }

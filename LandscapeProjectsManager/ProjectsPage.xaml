@@ -7,5 +7,6 @@
     <Grid>
     <Image Source="projects_background.png" Aspect="AspectFill"/>
     <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
+    
     </Grid>
 </ContentPage>
