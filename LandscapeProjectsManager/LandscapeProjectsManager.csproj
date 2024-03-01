@@ -53,4 +53,11 @@
 		<PackageReference Include="Syncfusion.Maui.Scheduler" Version="24.2.8" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="MVVM\" />
+	  <Folder Include="MVVM\Models\" />
+	  <Folder Include="MVVM\ViewModels\" />
+	  <Folder Include="MVVM\Views\" />
+	</ItemGroup>
+
 </Project>

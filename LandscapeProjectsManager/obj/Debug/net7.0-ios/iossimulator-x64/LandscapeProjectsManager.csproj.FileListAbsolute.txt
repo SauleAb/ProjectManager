@@ -272,9 +272,13 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-io
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.AssemblyInfo.cs
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.csproj.CoreCompileInputs.cache
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\XamlC.stamp
-C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.csproj.CopyComplete
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\refint\LandscapeProjectsManager.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.pdb
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.genruntimeconfig.cache
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\ref\LandscapeProjectsManager.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\bluecircle.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\redcircle.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\yellowcircle.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\LandscapeProjectsManager.sourcelink.json
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-ios\iossimulator-x64\Landscap.B7B0C1B2.Up2Date

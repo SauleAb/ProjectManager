@@ -216,7 +216,6 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-wi
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1323.51816.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -299,7 +298,6 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-wi
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.AssemblyInfo.cs
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.csproj.CoreCompileInputs.cache
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlC.stamp
-C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.csproj.CopyComplete
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\refint\LandscapeProjectsManager.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.pdb
@@ -563,3 +561,12 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-wi
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.winmd
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.winmd
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1624.6629.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.sourcelink.json
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Landscap.B7B0C1B2.Up2Date
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\bluecircle.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\redcircle.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\yellowcircle.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluecircle.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\redcircle.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\yellowcircle.scale-100.png
