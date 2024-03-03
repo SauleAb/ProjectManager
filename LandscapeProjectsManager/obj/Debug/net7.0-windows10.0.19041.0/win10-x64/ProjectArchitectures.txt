@@ -1,0 +1,1 @@
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\LandscapeProjectsManager.csproj;x64

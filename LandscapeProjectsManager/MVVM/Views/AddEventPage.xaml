@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.MVVM.Views.AddEventPage"
+             Title="AddEventPage">
+    <Grid BackgroundColor="Transparent">
+        <Entry x:Name="Entry"
+       Placeholder="Enter the title"/>
+
+        <StackLayout>
+            <Label 
+            Text="Add an event"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label Text="For who:"/>
+
+            <RadioButton x:Name="Baronaite" Content="Laura Baronaite" GroupName="optionsGroup" Value="Baronaite"/>
+
+            <RadioButton x:Name="Gudaityte" Content="Laura Gudaityte" GroupName="optionsGroup" Value="Gudaityte"/>
+
+            <RadioButton x:Name="Both" Content="Both" GroupName="optionsGroup" Value="Both"/>
+
+        </StackLayout>
+        <Button Text="Add" Clicked="OnAddButtonClicked"/>
+    </Grid>
+</ContentPage>

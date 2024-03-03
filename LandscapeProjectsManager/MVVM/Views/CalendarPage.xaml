@@ -54,8 +54,10 @@
                 <Image Source="redcircle.png" HeightRequest="40" WidthRequest="40" Grid.Column="4" />
                 <Label Text="Both" HeightRequest="40" VerticalOptions="Center" Margin="10,0,0,0" Grid.Column="5"/>
 
-            <Button Text="Add an event" HorizontalOptions="End" HeightRequest="50"
-                    WidthRequest="120" Grid.Column="6" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black"/> 
+                <Button Text="Add an event" HorizontalOptions="End" HeightRequest="50"
+                        WidthRequest="120" Grid.Column="6" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black"
+                        Clicked="OnAddEventButtonClicked"/>
+
             </Grid>
         </Grid>
     </Grid>
