@@ -16,8 +16,8 @@
                 <RowDefinition Height="Auto" /> <!-- Row for the calendar -->
             </Grid.RowDefinitions>
 
-            <scheduler:SfScheduler x:Name="Scheduler" AppointmentsSource="{Binding Events}" View="Week"
-                                   Grid.Row="0"> <!-- Specify the row for the calendar -->
+            <scheduler:SfScheduler x:Name="Scheduler" AppointmentsSource="{Binding Events}" View="Week" Tapped="OnSchedulerTapped" 
+                                   Grid.Row="0">
                 <scheduler:SfScheduler.AppointmentMapping>
                     <scheduler:SchedulerAppointmentMapping
                         Subject="EventName"
@@ -43,6 +43,7 @@
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="50"/>
                     <ColumnDefinition Width="100"/>
+
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Image Source="yellowcircle.png" HeightRequest="40" WidthRequest="40" Grid.Column="0" />

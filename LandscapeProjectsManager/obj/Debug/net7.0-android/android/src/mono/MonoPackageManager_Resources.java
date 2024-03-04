@@ -21,6 +21,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"Syncfusion.Licensing.dll",
 		"Syncfusion.Maui.Core.dll",
+		"Syncfusion.Maui.Picker.dll",
+		"Syncfusion.Maui.Popup.dll",
 		"Syncfusion.Maui.Scheduler.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
@@ -103,6 +105,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Kotlin.StdLib.Jdk8.dll",
 		"Xamarin.KotlinX.Coroutines.Android.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
+		"Syncfusion.Maui.Popup.resources.dll",
 		"Syncfusion.Maui.Scheduler.resources.dll",
 	};
 	public static String[] Dependencies = new String[]{

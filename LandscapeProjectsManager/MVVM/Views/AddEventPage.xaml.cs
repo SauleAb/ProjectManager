@@ -1,51 +1,72 @@
 using Syncfusion.Maui.Scheduler;
+using System;
+using System.Globalization;
 
-namespace LandscapeProjectsManager.MVVM.Views;
-
-public partial class AddEventPage : ContentPage
+namespace LandscapeProjectsManager.MVVM.Views
 {
-	public AddEventPage()
-	{
-		InitializeComponent();
-	}
-
-    private async void OnAddButtonClicked(object sender, EventArgs e)
+    public partial class AddEventPage : ContentPage
     {
-        var viewModel =  new CalendarViewModel();
+        private DateTime selectedDateTime;
 
-        var newEvent = new Meeting
+        public AddEventPage(DateTime selectedDateTime)
         {
-            From = DateTime.Now,
-            To = DateTime.Now.AddHours(1),
-            EventName = "New Event",
-            IsAllDay = false,
-            // Assign the color based on the selected radio button
-            Background = GetSelectedColor(),
-            Notes = "Added from AddEventPage", // Example: Set your notes
-            StartTimeZone = TimeZoneInfo.Local,
-            EndTimeZone = TimeZoneInfo.Local
-        };
-
-        viewModel.Events.Add(newEvent);
-
-        await Shell.Current.GoToAsync("..");
-    }
-
-    private Brush GetSelectedColor()
-    {
-        if (this.FindByName<RadioButton>("Baronaite").IsChecked)
-        {
-            return new SolidColorBrush(Color.FromArgb("#FFFFD700")); // Yellow color for Laura Baronaite
-        }
-        else if (this.FindByName<RadioButton>("Gudaityte").IsChecked)
-        {
-            return new SolidColorBrush(Color.FromArgb("#FF0000FF")); // Example: Blue color for Laura Gudaityte
-        }
-        else if (this.FindByName<RadioButton>("Both").IsChecked)
-        {
-            return new SolidColorBrush(Color.FromArgb("#FF008000")); // Example: Green color for Both
+            InitializeComponent();
+            this.selectedDateTime = selectedDateTime;
+            EventDate.Date = selectedDateTime.Date;
+            TimeFrom.Time = selectedDateTime.Date.TimeOfDay;
         }
 
-        return new SolidColorBrush(Color.FromArgb("#FFFFFFFF")); // Default color if none selected
+        private async void OnAddButtonClicked(object sender, EventArgs e)
+        {
+            var viewModel = new CalendarViewModel();
+
+            string eventName = Entry.Text;
+            DateTime from = selectedDateTime.Date.Add(TimeFrom.Time);
+            DateTime to = selectedDateTime.Date.Add(TimeTo.Time);
+            bool isBaronaiteChecked = Baronaite.IsChecked;
+            bool isGudaityteChecked = Gudaityte.IsChecked;
+            bool isBothChecked = Both.IsChecked;
+
+            // Check if all required fields are filled
+            if (!string.IsNullOrWhiteSpace(eventName) && (isBaronaiteChecked || isGudaityteChecked || isBothChecked))
+            {
+                var newEvent = new Meeting
+                {
+                    From = from,
+                    To = to,
+                    EventName = eventName,
+                    IsAllDay = false,
+                    Background = GetSelectedColor(isBaronaiteChecked, isGudaityteChecked, isBothChecked),
+                    Notes = "Added from AddEventPage",
+                    StartTimeZone = TimeZoneInfo.Local,
+                    EndTimeZone = TimeZoneInfo.Local
+                };
+
+                viewModel.Events.Add(newEvent);
+                await Shell.Current.Navigation.PopAsync();
+            }
+            else
+            {
+                await DisplayAlert("Alert", "Fill in all required fields!", "OK");
+            }
+        }
+
+        private Brush GetSelectedColor(bool isBaronaiteChecked, bool isGudaityteChecked, bool isBothChecked)
+        {
+            if (isBaronaiteChecked)
+            {
+                return new SolidColorBrush(Color.FromArgb("#FFFFD700")); // Yellow color for Laura Baronaite
+            }
+            else if (isGudaityteChecked)
+            {
+                return new SolidColorBrush(Color.FromArgb("#FF0000FF")); // Blue color for Laura Gudaityte
+            }
+            else if (isBothChecked)
+            {
+                return new SolidColorBrush(Color.FromArgb("#FF008000")); // Green color for Both
+            }
+
+            return new SolidColorBrush(Color.FromArgb("#FFFFFFFF")); // Default color if none selected
+        }
     }
 }

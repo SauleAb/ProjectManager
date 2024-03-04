@@ -22,7 +22,15 @@ namespace LandscapeProjectsManager
 
         private async void OnAddEventButtonClicked(object sender, EventArgs e)
         {
-            var modalPage = new AddEventPage();
+            DateTime selectedDateTime = DateTime.Now;
+            var modalPage = new AddEventPage(selectedDateTime);
+            await Navigation.PushModalAsync(modalPage);
+        }
+
+        private async void OnSchedulerTapped(object sender, EventArgs e)
+        {
+            var selectedDateTime = Convert.ToDateTime(Scheduler.SelectedDate); 
+            var modalPage = new AddEventPage(selectedDateTime);
             await Navigation.PushModalAsync(modalPage);
         }
     }

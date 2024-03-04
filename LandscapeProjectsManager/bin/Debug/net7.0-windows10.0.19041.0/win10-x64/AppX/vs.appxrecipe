@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-03T21:22:46.727</Modified>
+      <Modified>2024-03-04T14:35:40.212</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-03T21:22:46.181</Modified>
+      <Modified>2024-03-04T14:01:50.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.runtimeconfig.json">
       <PackagePath>LandscapeProjectsManager.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-01T14:08:43.072</Modified>
+      <Modified>2024-03-04T10:19:45.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.dll">
       <PackagePath>LandscapeProjectsManager.dll</PackagePath>
-      <Modified>2024-03-03T21:22:44.443</Modified>
+      <Modified>2024-03-04T14:35:37.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LandscapeProjectsManager.exe</PackagePath>
-      <Modified>2024-03-03T21:22:44.454</Modified>
+      <Modified>2024-03-04T14:35:37.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.deps.json">
       <PackagePath>LandscapeProjectsManager.deps.json</PackagePath>
-      <Modified>2024-03-03T21:16:54.440</Modified>
+      <Modified>2024-03-04T13:55:39.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.16\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -921,9 +921,21 @@
       <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
       <Modified>2024-02-26T08:18:00.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.picker\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Picker.dll">
+      <PackagePath>Syncfusion.Maui.Picker.dll</PackagePath>
+      <Modified>2024-02-26T08:44:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.popup\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Popup.dll">
+      <PackagePath>Syncfusion.Maui.Popup.dll</PackagePath>
+      <Modified>2024-02-26T08:37:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.scheduler\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Scheduler.dll">
       <PackagePath>Syncfusion.Maui.Scheduler.dll</PackagePath>
       <Modified>2024-02-26T08:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.popup\24.2.8\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Popup.resources.dll">
+      <PackagePath>en-US\Syncfusion.Maui.Popup.resources.dll</PackagePath>
+      <Modified>2024-02-26T08:37:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.scheduler\24.2.8\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Scheduler.resources.dll">
       <PackagePath>en-US\Syncfusion.Maui.Scheduler.resources.dll</PackagePath>

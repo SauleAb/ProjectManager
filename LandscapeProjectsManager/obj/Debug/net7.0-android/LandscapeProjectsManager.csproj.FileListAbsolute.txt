@@ -1078,3 +1078,6 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-an
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-android\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-android\android\assets\en-US\Syncfusion.Maui.Popup.resources.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-android\android\assets\Syncfusion.Maui.Picker.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-android\android\assets\Syncfusion.Maui.Popup.dll
