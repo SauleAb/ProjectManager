@@ -1,7 +1,8 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 namespace LandscapeProjectsManager;
 
-public class CalendarViewModel
+public class CalendarViewModel : INotifyPropertyChanged
 {
     private List<string> subjectCollection;
     private List<string> noteCollection;
@@ -15,7 +16,17 @@ public class CalendarViewModel
         this.CreateNoteCollection();
         this.InitializeAppointments();
     }
-    public ObservableCollection<Meeting> Events { get; set; }
+    private ObservableCollection<Meeting> events;
+
+    public ObservableCollection<Meeting> Events
+    {
+        get { return events; }
+        set
+        {
+            events = value;
+            OnPropertyChanged(nameof(Events));
+        }
+    }
     private void CreateNoteCollection()
     {
         this.noteCollection = new List<string>();
@@ -31,6 +42,14 @@ public class CalendarViewModel
         this.noteCollection.Add("Try to reduce the risk");
     }
 
+
+
+    public event PropertyChangedEventHandler PropertyChanged;
+    protected virtual void OnPropertyChanged(string propertyName)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
     private void InitializeAppointments()
     {
         this.Events = new ObservableCollection<Meeting>();
@@ -38,8 +57,8 @@ public class CalendarViewModel
         List<Point> randomTimeCollection = this.GettingTimeRanges();
 
         DateTime date;
-        DateTime dateFrom = DateTime.Now.AddDays(-50);
-        DateTime dateTo = DateTime.Now.AddDays(50);
+        DateTime dateFrom = DateTime.Now.AddDays(-3);
+        DateTime dateTo = DateTime.Now.AddDays(2);
 
         for (date = dateFrom; date < dateTo; date = date.AddDays(1))
         {
@@ -111,4 +130,6 @@ public class CalendarViewModel
         this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF0F8644")));
         this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF01A1EF")));
     }
+
+
 }

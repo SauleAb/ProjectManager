@@ -5,9 +5,11 @@ namespace LandscapeProjectsManager
 {
     public partial class CalendarPage : ContentPage
     {
+        private CalendarViewModel viewModel;
         public CalendarPage()
         {
             InitializeComponent();
+            viewModel = new CalendarViewModel();
         }
 
         private void OnPreviousMonthClicked(object sender, EventArgs e)
@@ -23,14 +25,14 @@ namespace LandscapeProjectsManager
         private async void OnAddEventButtonClicked(object sender, EventArgs e)
         {
             DateTime selectedDateTime = DateTime.Now;
-            var modalPage = new AddEventPage(selectedDateTime);
+            var modalPage = new AddEventPage(selectedDateTime, viewModel);
             await Navigation.PushModalAsync(modalPage);
         }
 
-        private async void OnSchedulerTapped(object sender, EventArgs e)
+        private async void OnSchedulerDoubleTapped(object sender, EventArgs e)
         {
             var selectedDateTime = Convert.ToDateTime(Scheduler.SelectedDate); 
-            var modalPage = new AddEventPage(selectedDateTime);
+            var modalPage = new AddEventPage(selectedDateTime, viewModel);
             await Navigation.PushModalAsync(modalPage);
         }
     }

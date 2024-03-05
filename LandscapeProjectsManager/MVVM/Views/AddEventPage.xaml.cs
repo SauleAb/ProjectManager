@@ -7,19 +7,26 @@ namespace LandscapeProjectsManager.MVVM.Views
     public partial class AddEventPage : ContentPage
     {
         private DateTime selectedDateTime;
+        private CalendarViewModel calendarViewModel;
 
-        public AddEventPage(DateTime selectedDateTime)
+        public DateTime SelectedDateTime { get; set; }
+        public string EventTitle { get; set; }
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
+
+        public AddEventPage(DateTime selectedDateTime, CalendarViewModel calendarViewModel)
         {
             InitializeComponent();
-            this.selectedDateTime = selectedDateTime;
-            EventDate.Date = selectedDateTime.Date;
-            TimeFrom.Time = selectedDateTime.Date.TimeOfDay;
+            this.calendarViewModel = calendarViewModel;
+            SelectedDateTime = selectedDateTime;
+            EventTitle = "";
+            StartTime = selectedDateTime.TimeOfDay;
+            EndTime = selectedDateTime.AddHours(1).TimeOfDay;
+            BindingContext = this;
         }
 
         private async void OnAddButtonClicked(object sender, EventArgs e)
         {
-            var viewModel = new CalendarViewModel();
-
             string eventName = Entry.Text;
             DateTime from = selectedDateTime.Date.Add(TimeFrom.Time);
             DateTime to = selectedDateTime.Date.Add(TimeTo.Time);
@@ -27,7 +34,6 @@ namespace LandscapeProjectsManager.MVVM.Views
             bool isGudaityteChecked = Gudaityte.IsChecked;
             bool isBothChecked = Both.IsChecked;
 
-            // Check if all required fields are filled
             if (!string.IsNullOrWhiteSpace(eventName) && (isBaronaiteChecked || isGudaityteChecked || isBothChecked))
             {
                 var newEvent = new Meeting
@@ -42,7 +48,14 @@ namespace LandscapeProjectsManager.MVVM.Views
                     EndTimeZone = TimeZoneInfo.Local
                 };
 
-                viewModel.Events.Add(newEvent);
+                Console.WriteLine("Adding new event: " + newEvent.EventName);
+                calendarViewModel.Events.Add(newEvent);
+
+                foreach (var ev in calendarViewModel.Events)
+                {
+                    Console.WriteLine("Event in collection: " + ev.EventName);
+                }
+
                 await Shell.Current.Navigation.PopAsync();
             }
             else

@@ -12,11 +12,11 @@
         <Image Source="calendar_background.png" Aspect="AspectFill"/>
         <Grid VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" /> 
-                <RowDefinition Height="Auto" /> <!-- Row for the calendar -->
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <scheduler:SfScheduler x:Name="Scheduler" AppointmentsSource="{Binding Events}" View="Week" Tapped="OnSchedulerTapped" 
+            <scheduler:SfScheduler x:Name="Scheduler" AppointmentsSource="{Binding Events}" View="Week" DoubleTapped="OnSchedulerDoubleTapped" 
                                    Grid.Row="0">
                 <scheduler:SfScheduler.AppointmentMapping>
                     <scheduler:SchedulerAppointmentMapping
