@@ -4,9 +4,43 @@
              x:Class="LandscapeProjectsManager.ProjectsPage"
              Shell.NavBarIsVisible="false"
              Title="ProjectsPage">
-    <Grid>
-    <Image Source="projects_background.png" Aspect="AspectFill"/>
-    <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
-    
-    </Grid>
+    <ScrollView>
+        <Grid>
+            <Image Source="projects_background.png" Aspect="AspectFill"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0"/>
+                <FlexLayout BindableLayout.ItemsSource="{Binding Projects}"
+                    Direction="Row"
+                    Wrap="Wrap"
+                    JustifyContent="SpaceAround"
+                    AlignItems="Center"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                        Grid.Row="1">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10">
+                                <Button Text="{Binding Name}"
+                                        FontSize="40"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center"
+                                        WidthRequest="300"
+                                        HeightRequest="200"
+                                        FontFamily="TitleFont"
+                                        BackgroundColor="Transparent"
+                                        BorderWidth="0"
+                                        TextColor="Black"
+                                        Clicked="ProjectButton_Clicked"/>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </Grid>
+        </Grid>
+    </ScrollView>
 </ContentPage>
