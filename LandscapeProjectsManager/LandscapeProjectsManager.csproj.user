@@ -18,10 +18,34 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="MVVM\Views\AddEventPage.xaml">
+    <MauiXaml Update="MVVM\Views\Calendar\AddEventPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectPage.xaml">
+    <MauiXaml Update="MVVM\Views\Projects\Project\Photos\AfterPhotosPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\Photos\BeforePhotosPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\DocumentsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\DraftsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\FinancesPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\OrdersPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\Photos\PhotosPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\Project\ProjectContactsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Projects\ProjectPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

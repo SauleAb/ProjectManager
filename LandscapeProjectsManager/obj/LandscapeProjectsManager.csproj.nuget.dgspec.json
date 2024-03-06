@@ -103,6 +103,10 @@
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.9, )"
+            },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
               "version": "[24.2.8, )"
@@ -282,6 +286,10 @@
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.9, )"
+            },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
               "version": "[24.2.8, )"
@@ -393,6 +401,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.9, )"
             },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
@@ -508,6 +520,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.9, )"
             },
             "Syncfusion.Maui.Picker": {
               "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9MikM7x89uA5ub0R5cKKxpayyZ4UDA7bhrTcY9roD4JFWFMVBwF/hjYB96HHQ/3VjnRmipA6iQwqV7kZNE2sfQ==",
+  "dgSpecHash": "Qg8PaojCTA0G1wZbNqWAl09N/GHvDrFErUTDKWK3MTvUmdECgoRhfpIgqMfMjHRmshZ6z3QayrRWtaJEoE0O/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
   "expectedPackageFiles": [
@@ -21,8 +21,9 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.licensing\\24.2.8\\syncfusion.licensing.24.2.8.nupkg.sha512",
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.core\\24.2.8\\syncfusion.maui.core.24.2.8.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.licensing\\24.2.9\\syncfusion.licensing.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.buttons\\24.2.9\\syncfusion.maui.buttons.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.core\\24.2.9\\syncfusion.maui.core.24.2.9.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.picker\\24.2.8\\syncfusion.maui.picker.24.2.8.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.popup\\24.2.8\\syncfusion.maui.popup.24.2.8.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.scheduler\\24.2.8\\syncfusion.maui.scheduler.24.2.8.nupkg.sha512",

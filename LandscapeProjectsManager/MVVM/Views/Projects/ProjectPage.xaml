@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.MVVM.Views.ProjectPage"
+             Shell.NavBarIsVisible="false"
+             Title="ProjectPage">
+    <Grid>
+        <Image Source="projects_background.png" Aspect="AspectFill"/>
+        <VerticalStackLayout>
+            <Label Text="Project" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Margin="10"/>
+            <Grid RowSpacing="10" ColumnSpacing="10" HorizontalOptions="Center" Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Padding="10" ImageSource="contacts.png" CornerRadius="10" BackgroundColor="Transparent" BorderColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" FontFamily="TitleFont" TextColor="Black" Clicked="Contacts_Clicked"/>
+                <Button Grid.Row="0" Grid.Column="1" Padding="10" ImageSource="photos3.png" CornerRadius="10" BackgroundColor="Transparent" BorderColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" FontFamily="TitleFont" TextColor="Black" Clicked="Photos_Clicked"/>
+                <Button Grid.Row="0" Grid.Column="2" Padding="10" ImageSource="documents.png" CornerRadius="10" BackgroundColor="Transparent" BorderColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" FontFamily="TitleFont" TextColor="Black" Clicked="Documents_Clicked"/>
+                <Button Grid.Row="1" Grid.Column="0" Padding="10" ImageSource="orders.png" CornerRadius="10" BackgroundColor="Transparent" BorderColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" FontFamily="TitleFont" TextColor="Black" Clicked="Orders_Clicked"/>
+                <Button Grid.Row="1" Grid.Column="1" Padding="10" ImageSource="drafts.png" CornerRadius="10" BackgroundColor="Transparent" BorderColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" FontFamily="TitleFont" TextColor="Black" Clicked="Drafts_Clicked"/>
+                <Button Grid.Row="1" Grid.Column="2" Padding="10" ImageSource="finances.png" CornerRadius="10" BackgroundColor="Transparent" BorderColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" FontFamily="TitleFont" TextColor="Black" Clicked="Finances_Clicked"/>
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
