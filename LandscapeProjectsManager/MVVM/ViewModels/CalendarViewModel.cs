@@ -27,6 +27,7 @@ public class CalendarViewModel : INotifyPropertyChanged
             OnPropertyChanged(nameof(Events));
         }
     }
+
     private void CreateNoteCollection()
     {
         this.noteCollection = new List<string>();
@@ -97,6 +98,7 @@ public class CalendarViewModel : INotifyPropertyChanged
         this.subjectCollection.Add("Release updates");
         this.subjectCollection.Add("Performance Check");
     }
+
 
     /// <summary>
     /// Method to get timing range.

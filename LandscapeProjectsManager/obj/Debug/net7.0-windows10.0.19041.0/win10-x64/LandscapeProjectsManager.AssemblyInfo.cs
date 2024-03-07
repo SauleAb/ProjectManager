@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LandscapeProjectsManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+24fa361d775fc3cf26457950b4bb683eb6dabba1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+33d191afc6ad7daec481eb557e0260b6d73ecc59")]
 [assembly: System.Reflection.AssemblyProductAttribute("LandscapeProjectsManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LandscapeProjectsManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

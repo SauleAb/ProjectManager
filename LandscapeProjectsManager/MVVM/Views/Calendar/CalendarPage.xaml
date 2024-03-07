@@ -10,7 +10,7 @@
     </ContentPage.BindingContext>
     <Grid>
         <Image Source="calendar_background.png" Aspect="AspectFill"/>
-        <Grid VerticalOptions="FillAndExpand">
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
@@ -34,31 +34,29 @@
                         RecurrenceId="RecurrenceId"/>
                 </scheduler:SfScheduler.AppointmentMapping>
             </scheduler:SfScheduler>
-            
-            <Grid Grid.Row="1" HorizontalOptions="Start" Margin="20">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="100"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="100"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="100"/>
 
+            <Grid Grid.Row="1" Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="yellowcircle.png" HeightRequest="40" WidthRequest="40" Grid.Column="0" />
-                <Label Text="Laura Baronaite" HeightRequest="40" VerticalOptions="Center" Margin="10,0,0,0" Grid.Column="1"/>
-
-                <Image Source="bluecircle.png" HeightRequest="40" WidthRequest="40" Grid.Column="2" />
-                <Label Text="Laura Gudaite" HeightRequest="40" VerticalOptions="Center" Margin="10,0,0,0" Grid.Column="3"/>
-
-                <Image Source="redcircle.png" HeightRequest="40" WidthRequest="40" Grid.Column="4" />
-                <Label Text="Both" HeightRequest="40" VerticalOptions="Center" Margin="10,0,0,0" Grid.Column="5"/>
-
-                <Button Text="Add an event" HorizontalOptions="End" HeightRequest="50"
-                        WidthRequest="120" Grid.Column="6" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black"
-                        Clicked="OnAddEventButtonClicked"/>
-
+                <StackLayout Grid.Column="0" Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal" Spacing="5" Margin="0,0,20,0">
+                        <Image Source="yellowcircle.png" HeightRequest="40" WidthRequest="40"/>
+                        <Label Text="Laura Baronaite" HeightRequest="20" VerticalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="5" Margin="0,0,20,0">
+                        <Image Source="bluecircle.png" HeightRequest="40" WidthRequest="40"/>
+                        <Label Text="Laura Gudaite" HeightRequest="20" VerticalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="5" Margin="0,0,20,0">
+                        <Image Source="redcircle.png" HeightRequest="40" WidthRequest="40"/>
+                        <Label Text="Both" HeightRequest="20" VerticalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+                <Button Grid.Column="1" Text="+" HorizontalOptions="End" HeightRequest="40" 
+                        WidthRequest="40" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black"
+                        Clicked="OnAddEventButtonClicked" CornerRadius="50"/>
             </Grid>
         </Grid>
     </Grid>

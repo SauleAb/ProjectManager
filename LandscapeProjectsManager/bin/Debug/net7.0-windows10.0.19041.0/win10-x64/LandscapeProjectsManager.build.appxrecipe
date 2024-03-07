@@ -685,10 +685,13 @@
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.licensing\24.2.8\lib\net7.0\Syncfusion.Licensing.dll">
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.licensing\24.2.9\lib\net7.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.buttons\24.2.9\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Buttons.dll">
+      <PackagePath>Syncfusion.Maui.Buttons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.9\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
       <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.picker\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Picker.dll">
@@ -699,6 +702,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.scheduler\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Scheduler.dll">
       <PackagePath>Syncfusion.Maui.Scheduler.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.buttons\24.2.9\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Buttons.resources.dll">
+      <PackagePath>en-US\Syncfusion.Maui.Buttons.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.popup\24.2.8\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Popup.resources.dll">
       <PackagePath>en-US\Syncfusion.Maui.Popup.resources.dll</PackagePath>
@@ -712,7 +718,7 @@
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.9\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
       <PackagePath>Syncfusion.Maui.Core.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -889,6 +895,12 @@
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back2.scale-100.png">
+      <PackagePath>back2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_x.scale-100.png">
+      <PackagePath>back_x.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluecircle.scale-100.png">
       <PackagePath>bluecircle.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -901,8 +913,14 @@
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendar_background.scale-100.png">
       <PackagePath>calendar_background.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts.scale-100.png">
+      <PackagePath>contacts.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts_background.scale-100.png">
       <PackagePath>contacts_background.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\documents.scale-100.png">
+      <PackagePath>documents.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -919,11 +937,32 @@
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\drafts.scale-100.png">
+      <PackagePath>drafts.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\finances.scale-100.png">
+      <PackagePath>finances.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mainpage_background.scale-100.png">
       <PackagePath>mainpage_background.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\orders.scale-100.png">
+      <PackagePath>orders.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos.scale-100.png">
+      <PackagePath>photos.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos2.scale-100.png">
+      <PackagePath>photos2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos3.scale-100.png">
+      <PackagePath>photos3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\projects_background.scale-100.png">
       <PackagePath>projects_background.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\project_info_background.scale-100.png">
+      <PackagePath>project_info_background.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\redcircle.scale-100.png">
       <PackagePath>redcircle.scale-100.png</PackagePath>

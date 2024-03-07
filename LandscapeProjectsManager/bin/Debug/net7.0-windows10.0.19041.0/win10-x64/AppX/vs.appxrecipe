@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-04T14:35:40.212</Modified>
+      <Modified>2024-03-07T16:55:40.752</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-04T14:01:50.953</Modified>
+      <Modified>2024-03-07T16:55:39.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.runtimeconfig.json">
       <PackagePath>LandscapeProjectsManager.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-04T10:19:45.712</Modified>
+      <Modified>2024-03-07T15:40:49.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.dll">
       <PackagePath>LandscapeProjectsManager.dll</PackagePath>
-      <Modified>2024-03-04T14:35:37.801</Modified>
+      <Modified>2024-03-07T16:55:36.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LandscapeProjectsManager.exe</PackagePath>
-      <Modified>2024-03-04T14:35:37.890</Modified>
+      <Modified>2024-03-07T16:55:36.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\LandscapeProjectsManager.deps.json">
       <PackagePath>LandscapeProjectsManager.deps.json</PackagePath>
-      <Modified>2024-03-04T13:55:39.271</Modified>
+      <Modified>2024-03-07T15:40:49.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.16\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -913,13 +913,17 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.licensing\24.2.8\lib\net7.0\Syncfusion.Licensing.dll">
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.licensing\24.2.9\lib\net7.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
-      <Modified>2024-02-26T08:12:50.000</Modified>
+      <Modified>2024-03-04T08:05:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.buttons\24.2.9\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Buttons.dll">
+      <PackagePath>Syncfusion.Maui.Buttons.dll</PackagePath>
+      <Modified>2024-03-04T08:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.9\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
       <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
-      <Modified>2024-02-26T08:18:00.000</Modified>
+      <Modified>2024-03-04T07:48:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.picker\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Picker.dll">
       <PackagePath>Syncfusion.Maui.Picker.dll</PackagePath>
@@ -932,6 +936,10 @@
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.scheduler\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Scheduler.dll">
       <PackagePath>Syncfusion.Maui.Scheduler.dll</PackagePath>
       <Modified>2024-02-26T08:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.buttons\24.2.9\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Buttons.resources.dll">
+      <PackagePath>en-US\Syncfusion.Maui.Buttons.resources.dll</PackagePath>
+      <Modified>2024-03-04T08:14:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.popup\24.2.8\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Popup.resources.dll">
       <PackagePath>en-US\Syncfusion.Maui.Popup.resources.dll</PackagePath>
@@ -949,9 +957,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.8\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
+    <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\syncfusion.maui.core\24.2.9\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
       <PackagePath>Syncfusion.Maui.Core.pri</PackagePath>
-      <Modified>2024-02-26T08:18:02.000</Modified>
+      <Modified>2024-03-04T07:48:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1003,187 +1011,195 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-03-01T13:31:02.987</Modified>
+      <Modified>2024-03-07T16:34:20.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.478</Modified>
+      <Modified>2024-03-07T16:34:22.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.499</Modified>
+      <Modified>2024-03-07T16:34:22.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.513</Modified>
+      <Modified>2024-03-07T16:34:22.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.536</Modified>
+      <Modified>2024-03-07T16:34:22.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.642</Modified>
+      <Modified>2024-03-07T16:34:23.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.221</Modified>
+      <Modified>2024-03-07T16:34:21.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.227</Modified>
+      <Modified>2024-03-07T16:34:21.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.248</Modified>
+      <Modified>2024-03-07T16:34:21.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.232</Modified>
+      <Modified>2024-03-07T16:34:21.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.238</Modified>
+      <Modified>2024-03-07T16:34:21.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.175</Modified>
+      <Modified>2024-03-07T16:34:21.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.183</Modified>
+      <Modified>2024-03-07T16:34:21.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.216</Modified>
+      <Modified>2024-03-07T16:34:21.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.198</Modified>
+      <Modified>2024-03-07T16:34:21.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.205</Modified>
+      <Modified>2024-03-07T16:34:21.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.061</Modified>
+      <Modified>2024-03-07T16:34:21.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.069</Modified>
+      <Modified>2024-03-07T16:34:21.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.076</Modified>
+      <Modified>2024-03-07T16:34:21.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.085</Modified>
+      <Modified>2024-03-07T16:34:21.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.095</Modified>
+      <Modified>2024-03-07T16:34:21.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.101</Modified>
+      <Modified>2024-03-07T16:34:21.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.107</Modified>
+      <Modified>2024-03-07T16:34:21.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.167</Modified>
+      <Modified>2024-03-07T16:34:21.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.127</Modified>
+      <Modified>2024-03-07T16:34:21.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.147</Modified>
+      <Modified>2024-03-07T16:34:21.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.321</Modified>
+      <Modified>2024-03-07T16:34:22.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.328</Modified>
+      <Modified>2024-03-07T16:34:22.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.340</Modified>
+      <Modified>2024-03-07T16:34:22.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.354</Modified>
+      <Modified>2024-03-07T16:34:22.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.378</Modified>
+      <Modified>2024-03-07T16:34:22.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.284</Modified>
+      <Modified>2024-03-07T16:34:22.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.291</Modified>
+      <Modified>2024-03-07T16:34:22.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.297</Modified>
+      <Modified>2024-03-07T16:34:22.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.304</Modified>
+      <Modified>2024-03-07T16:34:22.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.314</Modified>
+      <Modified>2024-03-07T16:34:22.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.254</Modified>
+      <Modified>2024-03-07T16:34:21.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.259</Modified>
+      <Modified>2024-03-07T16:34:21.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.264</Modified>
+      <Modified>2024-03-07T16:34:21.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.271</Modified>
+      <Modified>2024-03-07T16:34:21.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.279</Modified>
+      <Modified>2024-03-07T16:34:22.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.387</Modified>
+      <Modified>2024-03-07T16:34:22.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.396</Modified>
+      <Modified>2024-03-07T16:34:22.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.408</Modified>
+      <Modified>2024-03-07T16:34:22.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.424</Modified>
+      <Modified>2024-03-07T16:34:22.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.465</Modified>
+      <Modified>2024-03-07T16:34:22.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back2.scale-100.png">
+      <PackagePath>back2.scale-100.png</PackagePath>
+      <Modified>2024-03-07T16:33:54.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_x.scale-100.png">
+      <PackagePath>back_x.scale-100.png</PackagePath>
+      <Modified>2024-03-07T16:19:40.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bluecircle.scale-100.png">
       <PackagePath>bluecircle.scale-100.png</PackagePath>
@@ -1201,37 +1217,73 @@
       <PackagePath>calendar_background.scale-100.png</PackagePath>
       <Modified>2024-02-28T11:23:31.966</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts.scale-100.png">
+      <PackagePath>contacts.scale-100.png</PackagePath>
+      <Modified>2024-03-06T12:24:17.733</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts_background.scale-100.png">
       <PackagePath>contacts_background.scale-100.png</PackagePath>
       <Modified>2024-02-28T12:32:13.544</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\documents.scale-100.png">
+      <PackagePath>documents.scale-100.png</PackagePath>
+      <Modified>2024-03-06T12:22:01.740</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-03-01T13:31:02.921</Modified>
+      <Modified>2024-03-07T16:34:19.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-03-01T13:31:02.953</Modified>
+      <Modified>2024-03-07T16:34:19.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-03-01T13:31:02.995</Modified>
+      <Modified>2024-03-07T16:34:20.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.065</Modified>
+      <Modified>2024-03-07T16:34:20.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-03-01T13:31:03.202</Modified>
+      <Modified>2024-03-07T16:34:20.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\drafts.scale-100.png">
+      <PackagePath>drafts.scale-100.png</PackagePath>
+      <Modified>2024-03-06T12:20:49.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\finances.scale-100.png">
+      <PackagePath>finances.scale-100.png</PackagePath>
+      <Modified>2024-03-06T12:25:17.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mainpage_background.scale-100.png">
       <PackagePath>mainpage_background.scale-100.png</PackagePath>
       <Modified>2024-02-28T10:49:20.885</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\orders.scale-100.png">
+      <PackagePath>orders.scale-100.png</PackagePath>
+      <Modified>2024-03-06T12:20:05.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos.scale-100.png">
+      <PackagePath>photos.scale-100.png</PackagePath>
+      <Modified>2024-03-06T12:23:37.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos2.scale-100.png">
+      <PackagePath>photos2.scale-100.png</PackagePath>
+      <Modified>2024-03-06T16:59:02.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos3.scale-100.png">
+      <PackagePath>photos3.scale-100.png</PackagePath>
+      <Modified>2024-03-06T17:12:44.280</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\projects_background.scale-100.png">
       <PackagePath>projects_background.scale-100.png</PackagePath>
       <Modified>2024-02-28T12:32:50.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\project_info_background.scale-100.png">
+      <PackagePath>project_info_background.scale-100.png</PackagePath>
+      <Modified>2024-03-05T13:17:52.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\redcircle.scale-100.png">
       <PackagePath>redcircle.scale-100.png</PackagePath>

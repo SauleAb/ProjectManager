@@ -342,3 +342,16 @@ C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-wi
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Picker.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Popup.dll
 C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\en-US\Syncfusion.Maui.Popup.resources.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Buttons.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\en-US\Syncfusion.Maui.Buttons.resources.dll
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\documents.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\drafts.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\finances.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\orders.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos2.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photos3.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\project_info_background.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_x.scale-100.png
+C:\Users\ThinkPad\Desktop\augalinga\LandscapeProjectsManager\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back2.scale-100.png

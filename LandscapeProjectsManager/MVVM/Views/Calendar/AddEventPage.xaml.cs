@@ -81,5 +81,10 @@ namespace LandscapeProjectsManager.MVVM.Views
 
             return new SolidColorBrush(Color.FromArgb("#FFFFFFFF")); // Default color if none selected
         }
+
+        private async void BackButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.Navigation.PopAsync();
+        }
     }
 }

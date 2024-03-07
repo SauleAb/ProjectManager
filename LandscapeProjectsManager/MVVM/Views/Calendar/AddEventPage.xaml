@@ -8,11 +8,16 @@
         <Image Source="calendar_background.png" Aspect="AspectFill"/>
         <Frame HorizontalOptions="Center" VerticalOptions="Center" BorderColor="Black">
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" Padding="20" MaximumWidthRequest="600">
-                <Label 
-            Text="Add an event"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-                    FontSize="Large"/>
+                <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Text="x" Clicked="BackButton_Clicked" TextColor="Black" CornerRadius="20" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" Grid.Column="0" />
+
+                    <Label Text="Add an event" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" Grid.Column="1" />
+                </Grid>
                 <Entry x:Name="Entry"
                    WidthRequest="200"
                     Placeholder="Enter the title" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
@@ -34,7 +39,7 @@
                     <Label Text="/" FontSize="Medium" Margin="20, 0"/>
                     <RadioButton x:Name="Both" Content="Both" GroupName="optionsGroup" Value="Both"/>
                 </StackLayout>
-                <Button Text="Add" Clicked="OnAddButtonClicked" WidthRequest="60" HeightRequest="50"/>
+                <Button Text="Add" Clicked="OnAddButtonClicked" Background="Transparent" BorderColor="Black" TextColor="Black" WidthRequest="60" HeightRequest="50"/>
             </StackLayout>
         </Frame>
     </Grid>
