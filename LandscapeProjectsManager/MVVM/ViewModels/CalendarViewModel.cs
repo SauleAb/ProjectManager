@@ -1,12 +1,16 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
+using augalinga.Data.Access;
+using augalinga.Data.Entities;
+
 namespace LandscapeProjectsManager;
 
 public class CalendarViewModel : INotifyPropertyChanged
 {
+    private DataContext dataContext = new DataContext();
     private List<string> subjectCollection;
     private List<string> noteCollection;
-    private List<Brush> colorCollection;
+    private List<string> colorCollection;
     private string[] eventTypes = { "Meeting", "Emails", "Orders", "Documents", "Drafts", "Maintenance", "Installation", "Social Media" };
 
     public CalendarViewModel()
@@ -16,17 +20,8 @@ public class CalendarViewModel : INotifyPropertyChanged
         this.CreateNoteCollection();
         this.InitializeAppointments();
     }
-    private ObservableCollection<Meeting> events;
 
-    public ObservableCollection<Meeting> Events
-    {
-        get { return events; }
-        set
-        {
-            events = value;
-            OnPropertyChanged(nameof(Events));
-        }
-    }
+    public ObservableCollection<Meeting> Events => new ObservableCollection<Meeting>(dataContext.Meetings.ToList());
 
     private void CreateNoteCollection()
     {
@@ -53,7 +48,6 @@ public class CalendarViewModel : INotifyPropertyChanged
 
     private void InitializeAppointments()
     {
-        this.Events = new ObservableCollection<Meeting>();
         Random randomTime = new Random();
         List<Point> randomTimeCollection = this.GettingTimeRanges();
 
@@ -70,11 +64,9 @@ public class CalendarViewModel : INotifyPropertyChanged
                 meeting.From = new DateTime(date.Year, date.Month, date.Day, hour, 0, 0);
                 meeting.To = meeting.From.AddHours(1);
                 meeting.EventName = this.subjectCollection[randomTime.Next(9)];
-                meeting.Background = this.colorCollection[randomTime.Next(10)];
+                meeting.Background = "#FF8B1FA9";
                 meeting.IsAllDay = false;
                 meeting.Notes = this.noteCollection[randomTime.Next(10)];
-                meeting.StartTimeZone = TimeZoneInfo.Local;
-                meeting.EndTimeZone = TimeZoneInfo.Local;
                 this.Events.Add(meeting);
             }
         }
@@ -119,18 +111,18 @@ public class CalendarViewModel : INotifyPropertyChanged
     /// </summary>
     private void CreateColorCollection()
     {
-        this.colorCollection = new List<Brush>();
-
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF8B1FA9")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FFD20100")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FFFC571D")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF36B37B")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF3D4FB5")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FFE47C73")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF636363")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF85461E")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF0F8644")));
-        this.colorCollection.Add(new SolidColorBrush(Color.FromArgb("#FF01A1EF")));
+        this.colorCollection = new List<string>();
+        
+        this.colorCollection.Add("#FF8B1FA9");
+        this.colorCollection.Add("#FFD20100");
+        this.colorCollection.Add("#FFFC571D");
+        this.colorCollection.Add("#FF36B37B");
+        this.colorCollection.Add("#FF3D4FB5");
+        this.colorCollection.Add("#FFE47C73");
+        this.colorCollection.Add("#FF636363");
+        this.colorCollection.Add("#FF85461E");
+        this.colorCollection.Add("#FF0F8644");
+        this.colorCollection.Add("#FF01A1EF");
     }
 
 

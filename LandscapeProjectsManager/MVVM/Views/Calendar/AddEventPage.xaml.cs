@@ -1,3 +1,4 @@
+using augalinga.Data.Entities;
 using Syncfusion.Maui.Scheduler;
 using System;
 using System.Globalization;
@@ -44,8 +45,6 @@ namespace LandscapeProjectsManager.MVVM.Views
                     IsAllDay = false,
                     Background = GetSelectedColor(isBaronaiteChecked, isGudaityteChecked, isBothChecked),
                     Notes = "Added from AddEventPage",
-                    StartTimeZone = TimeZoneInfo.Local,
-                    EndTimeZone = TimeZoneInfo.Local
                 };
 
                 Console.WriteLine("Adding new event: " + newEvent.EventName);
@@ -64,22 +63,22 @@ namespace LandscapeProjectsManager.MVVM.Views
             }
         }
 
-        private Brush GetSelectedColor(bool isBaronaiteChecked, bool isGudaityteChecked, bool isBothChecked)
+        private string GetSelectedColor(bool isBaronaiteChecked, bool isGudaityteChecked, bool isBothChecked)
         {
             if (isBaronaiteChecked)
             {
-                return new SolidColorBrush(Color.FromArgb("#FFFFD700")); // Yellow color for Laura Baronaite
+                return "#FFFFD700"; // Yellow color new SolidColorBrush(Color.FromArgb(
             }
             else if (isGudaityteChecked)
             {
-                return new SolidColorBrush(Color.FromArgb("#FF0000FF")); // Blue color for Laura Gudaityte
+                return "#FF0000FF"; //blue
             }
             else if (isBothChecked)
             {
-                return new SolidColorBrush(Color.FromArgb("#FF008000")); // Green color for Both
+                return "#FF008000"; // Green color for Both
             }
 
-            return new SolidColorBrush(Color.FromArgb("#FFFFFFFF")); // Default color if none selected
+            return "#FFFFFFFF"; // Default color if none selected
         }
 
         private async void BackButton_Clicked(object sender, EventArgs e)

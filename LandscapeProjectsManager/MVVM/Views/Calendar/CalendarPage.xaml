@@ -23,15 +23,9 @@
                         Subject="EventName"
                         StartTime="From"
                         EndTime="To"
-                        Background="Background"
-                        TextColorMapping="TextColor"
+                        Background="Brush"
                         IsAllDay="IsAllDay"
-                        StartTimeZone="StartTimeZone"
-                        EndTimeZone="EndTimeZone"
-                        Id="Id"        
-                        RecurrenceExceptionDates="RecurrenceExceptions"
-                        RecurrenceRule="RecurrenceRule"
-                        RecurrenceId="RecurrenceId"/>
+                        Id="Id"/>
                 </scheduler:SfScheduler.AppointmentMapping>
             </scheduler:SfScheduler>
 
