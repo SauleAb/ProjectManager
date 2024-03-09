@@ -1,3 +1,4 @@
+using augalinga.Data.Access;
 using augalinga.Data.Entities;
 using Syncfusion.Maui.Scheduler;
 using System;
@@ -14,6 +15,8 @@ namespace LandscapeProjectsManager.MVVM.Views
         public string EventTitle { get; set; }
         public TimeSpan StartTime { get; set; }
         public TimeSpan EndTime { get; set; }
+        public DataContext DataContext { get; set; } = new DataContext();
+
 
         public AddEventPage(DateTime selectedDateTime, CalendarViewModel calendarViewModel)
         {
@@ -29,8 +32,8 @@ namespace LandscapeProjectsManager.MVVM.Views
         private async void OnAddButtonClicked(object sender, EventArgs e)
         {
             string eventName = Entry.Text;
-            DateTime from = selectedDateTime.Date.Add(TimeFrom.Time);
-            DateTime to = selectedDateTime.Date.Add(TimeTo.Time);
+            DateTime from = SelectedDateTime.Date.Add(TimeFrom.Time);
+            DateTime to = SelectedDateTime.Date.Add(TimeTo.Time);
             bool isBaronaiteChecked = Baronaite.IsChecked;
             bool isGudaityteChecked = Gudaityte.IsChecked;
             bool isBothChecked = Both.IsChecked;
@@ -47,13 +50,11 @@ namespace LandscapeProjectsManager.MVVM.Views
                     Notes = "Added from AddEventPage",
                 };
 
-                Console.WriteLine("Adding new event: " + newEvent.EventName);
-                calendarViewModel.Events.Add(newEvent);
+                DataContext.Meetings.Add(newEvent);
 
-                foreach (var ev in calendarViewModel.Events)
-                {
-                    Console.WriteLine("Event in collection: " + ev.EventName);
-                }
+                await DataContext.SaveChangesAsync();
+
+                calendarViewModel.AddEventToCollection(newEvent);
 
                 await Shell.Current.Navigation.PopAsync();
             }
@@ -67,18 +68,18 @@ namespace LandscapeProjectsManager.MVVM.Views
         {
             if (isBaronaiteChecked)
             {
-                return "#FFFFD700"; // Yellow color new SolidColorBrush(Color.FromArgb(
+                return "#FFFFD700"; // Yellow
             }
             else if (isGudaityteChecked)
             {
-                return "#FF0000FF"; //blue
+                return "#1A9BAB"; // Electric
             }
             else if (isBothChecked)
             {
-                return "#FF008000"; // Green color for Both
+                return "#E7344C"; // Red
             }
 
-            return "#FFFFFFFF"; // Default color if none selected
+            return "#FFFFFFFF"; // Default color
         }
 
         private async void BackButton_Clicked(object sender, EventArgs e)

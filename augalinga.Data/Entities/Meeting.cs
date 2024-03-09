@@ -20,7 +20,17 @@ namespace augalinga.Data.Entities
         public string EventName { get; set; }
         public string Notes { get; set; }
         public string Background { get; set; }
+
         [NotMapped]
-        public Brush Brush => new SolidColorBrush(Color.FromRgba(this.Background));
+        public Color BrushColor
+        {
+            get
+            {
+                Color.TryParse(Background, out Color color);
+                return color; 
+            }
+        }
+        [NotMapped]
+        public SolidColorBrush Brush => new SolidColorBrush(BrushColor);
     }
 }

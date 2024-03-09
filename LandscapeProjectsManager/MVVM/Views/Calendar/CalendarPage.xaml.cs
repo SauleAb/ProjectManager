@@ -10,6 +10,7 @@ namespace LandscapeProjectsManager
         {
             InitializeComponent();
             viewModel = new CalendarViewModel();
+            this.BindingContext = viewModel;
         }
 
         private void OnPreviousMonthClicked(object sender, EventArgs e)

@@ -7,123 +7,37 @@ namespace LandscapeProjectsManager;
 
 public class CalendarViewModel : INotifyPropertyChanged
 {
-    private DataContext dataContext = new DataContext();
-    private List<string> subjectCollection;
-    private List<string> noteCollection;
-    private List<string> colorCollection;
-    private string[] eventTypes = { "Meeting", "Emails", "Orders", "Documents", "Drafts", "Maintenance", "Installation", "Social Media" };
+    private ObservableCollection<Meeting> _events;
+    public ObservableCollection<Meeting> Events
+    {
+        get => _events;
+        set
+        {
+            _events = value;
+            OnPropertyChanged(nameof(Events));
+        }
+    }
 
     public CalendarViewModel()
     {
-        this.CreateSubjectCollection();
-        this.CreateColorCollection();
-        this.CreateNoteCollection();
-        this.InitializeAppointments();
+        LoadEvents();
     }
 
-    public ObservableCollection<Meeting> Events => new ObservableCollection<Meeting>(dataContext.Meetings.ToList());
-
-    private void CreateNoteCollection()
+    private void LoadEvents()
     {
-        this.noteCollection = new List<string>();
-        this.noteCollection.Add("Consulting firm laws with business advisers");
-        this.noteCollection.Add("Execute Project Scope");
-        this.noteCollection.Add("Project Scope & Deliverables");
-        this.noteCollection.Add("Executive summary");
-        this.noteCollection.Add("Try to reduce the risks");
-        this.noteCollection.Add("Encourages the integration of mind, body, and spirit");
-        this.noteCollection.Add("Execute Project Scope");
-        this.noteCollection.Add("Project Scope & Deliverables");
-        this.noteCollection.Add("Executive summary");
-        this.noteCollection.Add("Try to reduce the risk");
+        var meetings = new DataContext().Meetings.ToList();
+        Events = new ObservableCollection<Meeting>(meetings);
     }
 
-
+    public void AddEventToCollection(Meeting newMeeting)
+    {
+        Events.Add(newMeeting);
+        LoadEvents();
+    }
 
     public event PropertyChangedEventHandler PropertyChanged;
     protected virtual void OnPropertyChanged(string propertyName)
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
-
-    private void InitializeAppointments()
-    {
-        Random randomTime = new Random();
-        List<Point> randomTimeCollection = this.GettingTimeRanges();
-
-        DateTime date;
-        DateTime dateFrom = DateTime.Now.AddDays(-3);
-        DateTime dateTo = DateTime.Now.AddDays(2);
-
-        for (date = dateFrom; date < dateTo; date = date.AddDays(1))
-        {
-            for (int additionalAppointmentIndex = 0; additionalAppointmentIndex < 1; additionalAppointmentIndex++)
-            {
-                var meeting = new Meeting();
-                int hour = randomTime.Next((int)randomTimeCollection[additionalAppointmentIndex].X, (int)randomTimeCollection[additionalAppointmentIndex].Y);
-                meeting.From = new DateTime(date.Year, date.Month, date.Day, hour, 0, 0);
-                meeting.To = meeting.From.AddHours(1);
-                meeting.EventName = this.subjectCollection[randomTime.Next(9)];
-                meeting.Background = "#FF8B1FA9";
-                meeting.IsAllDay = false;
-                meeting.Notes = this.noteCollection[randomTime.Next(10)];
-                this.Events.Add(meeting);
-            }
-        }
-    }
-
-    /// <summary>
-    /// Method to create the subject collection.
-    /// </summary>
-    private void CreateSubjectCollection()
-    {
-        this.subjectCollection = new List<string>();
-        this.subjectCollection.Add("General Meeting");
-        this.subjectCollection.Add("Plan Execution");
-        this.subjectCollection.Add("Project Plan");
-        this.subjectCollection.Add("Consulting");
-        this.subjectCollection.Add("Performance Check");
-        this.subjectCollection.Add("Support");
-        this.subjectCollection.Add("Development Meeting");
-        this.subjectCollection.Add("Scrum");
-        this.subjectCollection.Add("Project Completion");
-        this.subjectCollection.Add("Release updates");
-        this.subjectCollection.Add("Performance Check");
-    }
-
-
-    /// <summary>
-    /// Method to get timing range.
-    /// </summary>
-    /// <returns>return time collection</returns>
-    private List<Point> GettingTimeRanges()
-    {
-        List<Point> randomTimeCollection = new List<Point>();
-        randomTimeCollection.Add(new Point(9, 11));
-        randomTimeCollection.Add(new Point(12, 14));
-        randomTimeCollection.Add(new Point(15, 17));
-
-        return randomTimeCollection;
-    }
-
-    /// <summary>
-    /// Method to create the color collection.
-    /// </summary>
-    private void CreateColorCollection()
-    {
-        this.colorCollection = new List<string>();
-        
-        this.colorCollection.Add("#FF8B1FA9");
-        this.colorCollection.Add("#FFD20100");
-        this.colorCollection.Add("#FFFC571D");
-        this.colorCollection.Add("#FF36B37B");
-        this.colorCollection.Add("#FF3D4FB5");
-        this.colorCollection.Add("#FFE47C73");
-        this.colorCollection.Add("#FF636363");
-        this.colorCollection.Add("#FF85461E");
-        this.colorCollection.Add("#FF0F8644");
-        this.colorCollection.Add("#FF01A1EF");
-    }
-
-
 }
