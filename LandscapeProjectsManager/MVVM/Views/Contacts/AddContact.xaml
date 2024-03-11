@@ -6,7 +6,7 @@
     <Grid>
         <Image Source="contacts_background.png" Aspect="AspectFill"/>
         <Frame HorizontalOptions="Center" VerticalOptions="Center" BorderColor="Black">
-            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="50" />
                     <ColumnDefinition Width="*" />
@@ -14,7 +14,17 @@
                 </Grid.ColumnDefinitions>
                 <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" MaximumWidthRequest="600" Grid.Column="1">
-                    <Label Text="Add an event" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" />
+                    <Label Text="Add a contact" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" Margin="0,0,0,20"/>
+                    <Picker x:Name="ContactCategoryPicker" Title="Select category" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,20">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Nurseries</x:String>
+                                <x:String>Transport</x:String>
+                                <x:String>Manufacture</x:String>
+                                <x:String>Colleagues</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
                     <Entry x:Name="EntryName" WidthRequest="200" Placeholder="Name" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
                     <Entry x:Name="EntryPhone" WidthRequest="200" Placeholder="Phone number" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
                     <Entry x:Name="EntryAddress" WidthRequest="200" Placeholder="Address" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>

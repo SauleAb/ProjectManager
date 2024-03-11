@@ -21,7 +21,7 @@
                     </Grid.ColumnDefinitions>
                     <Button Text="+" Clicked="AddProject_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                     <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>
-                    <StackLayout/>
+                    <StackLayout Grid.Column="2"/>
                 </Grid>
                 <FlexLayout BindableLayout.ItemsSource="{Binding Projects}"
                     Direction="Row"

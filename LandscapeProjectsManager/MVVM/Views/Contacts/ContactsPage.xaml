@@ -5,19 +5,35 @@
              Shell.NavBarIsVisible="false"
              Title="Contacts">
     <Grid>
-        <Image Source="contacts_background.png" Aspect="AspectFill"/>
-        <Label Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
-        <Grid VerticalOptions="Center">
+    <Image Source="contacts_background.png" Aspect="AspectFill"/>
+        <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="0">
-                <Button Text="Nurseries"
+
+            <Grid HorizontalOptions="FillAndExpand" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="65" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="65" />
+                </Grid.ColumnDefinitions>
+                <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                <Label Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>
+                <StackLayout Grid.Column="2"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="0">
+                    <Button Text="Nurseries"
                         FontSize="40"
                         Grid.Column="0" Grid.Row="0"
                         HorizontalOptions="Center"
@@ -28,9 +44,9 @@
                         BackgroundColor="Transparent"
                         BorderWidth="0"
                         TextColor="Black"/>
-            </Frame>
-            <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="0">
-                <Button Text="Transport"
+                </Frame>
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="0">
+                    <Button Text="Transport"
                         FontSize="40"
                         Grid.Column="1" Grid.Row="0"
                         HorizontalOptions="Center"
@@ -41,9 +57,9 @@
                         BackgroundColor="Transparent"
                         BorderWidth="0"
                         TextColor="Black"/>
-            </Frame>
-            <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="1">
-                <Button Text="Manufacture"
+                </Frame>
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="1">
+                    <Button Text="Manufacture"
                         FontSize="40"
                         Grid.Column="0" Grid.Row="1"
                         HorizontalOptions="Center"
@@ -54,9 +70,9 @@
                         BackgroundColor="Transparent"
                         BorderWidth="0"
                         TextColor="Black"/>
-            </Frame>
-            <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="1">
-                <Button Text="Colleagues"
+                </Frame>
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="1">
+                    <Button Text="Colleagues"
                         FontSize="40"
                         Grid.Column="1" Grid.Row="1"
                         HorizontalOptions="Center"
@@ -67,7 +83,8 @@
                         BackgroundColor="Transparent"
                         BorderWidth="0"
                         TextColor="Black"/>
-            </Frame>
+                </Frame>
+            </Grid>
         </Grid>
     </Grid>
 </ContentPage>
