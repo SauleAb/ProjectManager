@@ -60,7 +60,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="MVVM\Views\Projects\ProjectPage.xaml.cs">
+	  <Compile Update="MVVM\Views\ProjectsViews\ProjectPage.xaml.cs">
 	    <DependentUpon>ProjectPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
@@ -69,37 +69,47 @@
 	  <MauiXaml Update="MVVM\Views\Calendar\AddEventPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\Photos\AfterPhotosPage.xaml">
+	  <MauiXaml Update="MVVM\Views\Contacts\AddContact.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\Photos\BeforePhotosPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\AddProjectPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\DocumentsPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\AfterPhotosPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\DraftsPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\BeforePhotosPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\FinancesPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\DocumentsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\OrdersPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\DraftsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\Photos\PhotosPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\FinancesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\Project\ProjectContactsPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\OrdersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\Projects\ProjectPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\PhotosPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectContactsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Update="Microsoft.Maui.Controls" Version="8.0.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="MVVM\Models\" />
 	</ItemGroup>
 
 </Project>

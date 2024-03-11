@@ -13,18 +13,27 @@ namespace UnitTestingData
         [TestMethod]
         public async Task AddMeeting()
         {
-            await DataContext.Meetings.AddAsync(new augalinga.Data.Entities.Meeting
-            {
-                IsAllDay = false,
-                From = DateTime.Now, 
-                To = DateTime.Now.AddHours(1),
-                EventName = "Test Event",
-                Background = "#FFFFD700",
-                Notes = "Test test test"
-            });
+            await DataContext.Projects.AddAsync(new augalinga.Data.Entities.Project("Pina"));
+            await DataContext.Projects.AddAsync(new augalinga.Data.Entities.Project("Lavender"));
+            await DataContext.Projects.AddAsync(new augalinga.Data.Entities.Project("Rose"));
+            await DataContext.Projects.AddAsync(new augalinga.Data.Entities.Project("Oak"));
 
             await DataContext.SaveChangesAsync();
         }
+        // public async Task AddMeeting()
+        // {
+        //     await DataContext.Meetings.AddAsync(new augalinga.Data.Entities.Meeting
+        //     {
+        //         IsAllDay = false,
+        //         From = DateTime.Now, 
+        //         To = DateTime.Now.AddHours(1),
+        //         EventName = "Test Event",
+        //         Background = "#FFFFD700",
+        //         Notes = "Test test test"
+        //     });
+        // 
+        //     await DataContext.SaveChangesAsync();
+        // }
 
         // public async Task FindMeeting()
         // {

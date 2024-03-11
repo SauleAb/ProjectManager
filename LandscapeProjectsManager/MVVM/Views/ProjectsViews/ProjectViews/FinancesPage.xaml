@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.MVVM.Views.Projects.FinancesPage"
+             Shell.NavBarIsVisible="false"
+             Title="FinancesPage">
+    <Grid>
+        <Image Source="projects_background.png" Aspect="AspectFill"/>
+        <Label Text="Finances" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
+        <Grid VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="0">
+                <Button Text="Income"
+                FontSize="40"
+                Grid.Column="0" Grid.Row="0"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="200"
+                FontFamily="TitleFont"
+                BackgroundColor="Transparent"
+                BorderWidth="0"
+                TextColor="Black"/>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="0">
+                <Button Text="Outcome"
+                FontSize="40"
+                Grid.Column="1" Grid.Row="0"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="200"
+                FontFamily="TitleFont"
+                BackgroundColor="Transparent"
+                BorderWidth="0"
+                TextColor="Black"/>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="2" Grid.Row="0">
+                <Button Text="Invoices"
+                FontSize="40"
+                Grid.Column="2" Grid.Row="0"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="200"
+                FontFamily="TitleFont"
+                BackgroundColor="Transparent"
+                BorderWidth="0"
+                TextColor="Black"/>
+            </Frame>
+        </Grid>
+    </Grid>
+</ContentPage>
