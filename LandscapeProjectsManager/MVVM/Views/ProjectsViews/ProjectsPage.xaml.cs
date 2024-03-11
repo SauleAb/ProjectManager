@@ -17,7 +17,9 @@ public partial class ProjectsPage : ContentPage
 
     private async void ProjectButton_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new ProjectPage());
+        Button clickedButton = (Button)sender;
+        string projectName = clickedButton.Text;
+        await Navigation.PushAsync(new ProjectPage(projectName));
     }
 
     private async void AddProject_Clicked(object sender, EventArgs e)

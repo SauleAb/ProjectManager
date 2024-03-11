@@ -4,10 +4,11 @@ namespace LandscapeProjectsManager.MVVM.Views;
 
 public partial class ProjectPage : ContentPage
 {
-	public ProjectPage()
+	public ProjectPage(string projectName)
 	{
 		InitializeComponent();
-	}
+        ProjectName.Text = projectName;
+    }
 
     private async void Contacts_Clicked(object sender, EventArgs e)
     {

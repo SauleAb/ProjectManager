@@ -15,12 +15,13 @@
 
                 <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Grid.Row="0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="65" />
                         <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="65" />
                     </Grid.ColumnDefinitions>
-
-                    <Button Text="+" Clicked="AddProject_Clicked" HeightRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" Grid.Column="0" />
+                    <Button Text="+" Clicked="AddProject_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                     <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>
+                    <StackLayout/>
                 </Grid>
                 <FlexLayout BindableLayout.ItemsSource="{Binding Projects}"
                     Direction="Row"
@@ -33,7 +34,8 @@
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
                             <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10">
-                                <Button Text="{Binding Name}"
+                                <Button x:Name="ProjectButton"
+                                        Text="{Binding Name}"
                                         FontSize="40"
                                         HorizontalOptions="Center"
                                         VerticalOptions="Center"
