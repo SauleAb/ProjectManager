@@ -26,7 +26,7 @@
                         </Picker.ItemsSource>
                     </Picker>
                     <Entry x:Name="EntryName" WidthRequest="200" Placeholder="Name" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
-                    <Entry x:Name="EntryPhone" WidthRequest="200" Placeholder="Phone number" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
+                    <Entry x:Name="EntryPhone" Text="+370" WidthRequest="200" Placeholder="Phone number" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
                     <Entry x:Name="EntryAddress" WidthRequest="200" Placeholder="Address" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
                     <Button Text="Add contact" Clicked="AddContactButton_Clicked" WidthRequest="150" Margin="20" Background="Transparent" TextColor="Black" BorderColor="Black"/>
                 </StackLayout>

@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.MVVM.Views.Contacts.ContactView"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+             xmlns:local="clr-namespace:LandscapeProjectsManager.MVVM.ViewModels"
+             Shell.NavBarIsVisible="False"
+             Title="ContactView">
+    <Grid>
+        <Image Source="contacts_background.png" Aspect="AspectFill"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="ContactsLabel" Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Grid.Column="0"/>
+            <syncfusion:SfDataGrid x:Name="dataGrid" AutoGenerateColumnsMode="None" ItemsSource="{Binding Contacts}" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" Margin="0,30,0,0"  MinimumWidthRequest="800">
+                <syncfusion:SfDataGrid.Columns>
+                    <syncfusion:DataGridTextColumn HeaderText="Name" MappingName="Name" Width="250"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Number" MappingName="Number" Width="250"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Address" MappingName="Address" Width="250"/>
+                </syncfusion:SfDataGrid.Columns>
+            </syncfusion:SfDataGrid>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -197,6 +197,10 @@
               "target": "Package",
               "version": "[24.2.9, )"
             },
+            "Syncfusion.Maui.DataGrid": {
+              "target": "Package",
+              "version": "[24.2.9, )"
+            },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
               "version": "[24.2.8, )"
@@ -249,6 +253,10 @@
               "autoReferenced": true
             },
             "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.9, )"
+            },
+            "Syncfusion.Maui.DataGrid": {
               "target": "Package",
               "version": "[24.2.9, )"
             },
@@ -307,6 +315,10 @@
               "target": "Package",
               "version": "[24.2.9, )"
             },
+            "Syncfusion.Maui.DataGrid": {
+              "target": "Package",
+              "version": "[24.2.9, )"
+            },
             "Syncfusion.Maui.Picker": {
               "target": "Package",
               "version": "[24.2.8, )"
@@ -354,6 +366,10 @@
               "version": "[8.0.6, )"
             },
             "Syncfusion.Maui.Buttons": {
+              "target": "Package",
+              "version": "[24.2.9, )"
+            },
+            "Syncfusion.Maui.DataGrid": {
               "target": "Package",
               "version": "[24.2.9, )"
             },

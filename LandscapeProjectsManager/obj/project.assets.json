@@ -904,6 +904,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -4038,6 +4136,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -7091,6 +7287,104 @@
         "runtime": {
           "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -10150,6 +10444,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -13203,6 +13595,104 @@
         "runtime": {
           "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -16262,6 +16752,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -19318,6 +19906,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -22371,6 +23057,104 @@
         "runtime": {
           "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -25459,6 +26243,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -27146,6 +28028,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -28777,6 +29757,104 @@
         "runtime": {
           "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -30414,6 +31492,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -32045,6 +33221,104 @@
         "runtime": {
           "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -33682,6 +34956,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -35316,6 +36688,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -36934,6 +38404,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -38470,6 +40038,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -39878,6 +41544,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -41228,6 +42992,104 @@
         "runtime": {
           "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -42584,6 +44446,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -43934,6 +45894,104 @@
         "runtime": {
           "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -45290,6 +47348,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -46643,6 +48799,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -47980,6 +50234,104 @@
         "runtime": {
           "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -49534,6 +51886,104 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
             "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -51102,6 +53552,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -52609,6 +55157,104 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
             "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -54122,6 +56768,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -55629,6 +58373,104 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
             "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -57142,6 +59984,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -58652,6 +61592,104 @@
           }
         }
       },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Syncfusion.Maui.Picker/24.2.8": {
         "type": "package",
         "dependencies": {
@@ -60158,6 +63196,104 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
             "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Data/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataGrid/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.Data": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9",
+          "Syncfusion.Maui.Inputs": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.DataSource/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.GridCommon/24.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Inputs/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.ListView": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.ListView/24.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "24.2.9",
+          "Syncfusion.Maui.DataSource": "24.2.9",
+          "Syncfusion.Maui.GridCommon": "24.2.9"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll": {
+            "locale": "en-US"
           }
         }
       },
@@ -63852,6 +66988,250 @@
         "lib/net8.0/Syncfusion.Maui.Core.xml",
         "syncfusion.maui.core.24.2.9.nupkg.sha512",
         "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Data/24.2.9": {
+      "sha512": "pOKZoddyTMikF3FpQPvrcoGkpIjOS7n0VC5+jZjq/ey9ahMUDd1Ja7ZdPIwTcRucIdXNnG4hkdiMETzFuGOK9w==",
+      "type": "package",
+      "path": "syncfusion.maui.data/24.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Data.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Data.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Data.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Data.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Data.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Data.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Data.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Data.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Data.xml",
+        "lib/net7.0/Syncfusion.Maui.Data.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Data.dll",
+        "lib/net7.0/Syncfusion.Maui.Data.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Data.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Data.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Data.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Data.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Data.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Data.xml",
+        "lib/net8.0/Syncfusion.Maui.Data.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Data.dll",
+        "lib/net8.0/Syncfusion.Maui.Data.xml",
+        "syncfusion.maui.data.24.2.9.nupkg.sha512",
+        "syncfusion.maui.data.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.DataGrid/24.2.9": {
+      "sha512": "+G6E7Cr2sm2TPV2BE1JvLm46ov0+zQlq8IoIIZ3MAyp4RSuu7hZ5K+TaQnjNgHu1PH15e2AYeNEOh8RDLbajTg==",
+      "type": "package",
+      "path": "syncfusion.maui.datagrid/24.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.DataGrid.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.DataGrid.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.DataGrid.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.DataGrid.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.DataGrid.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.xml",
+        "lib/net7.0/Syncfusion.Maui.DataGrid.deps.json",
+        "lib/net7.0/Syncfusion.Maui.DataGrid.dll",
+        "lib/net7.0/Syncfusion.Maui.DataGrid.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.DataGrid.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.DataGrid.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataGrid.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataGrid.xml",
+        "lib/net8.0/Syncfusion.Maui.DataGrid.deps.json",
+        "lib/net8.0/Syncfusion.Maui.DataGrid.dll",
+        "lib/net8.0/Syncfusion.Maui.DataGrid.xml",
+        "syncfusion.maui.datagrid.24.2.9.nupkg.sha512",
+        "syncfusion.maui.datagrid.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.DataSource/24.2.9": {
+      "sha512": "Gl7QJ1MxaBE6gS9ILZmQdppy/rr3wk73iVMvJv0xJiER0Fppt5Dztyh/RvlepF3i8CCUh5FFe5tYdAeNSpDCDA==",
+      "type": "package",
+      "path": "syncfusion.maui.datasource/24.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.DataSource.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.DataSource.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.DataSource.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.DataSource.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.DataSource.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.DataSource.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.xml",
+        "lib/net7.0/Syncfusion.Maui.DataSource.deps.json",
+        "lib/net7.0/Syncfusion.Maui.DataSource.dll",
+        "lib/net7.0/Syncfusion.Maui.DataSource.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.DataSource.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.DataSource.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.DataSource.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.DataSource.xml",
+        "lib/net8.0/Syncfusion.Maui.DataSource.deps.json",
+        "lib/net8.0/Syncfusion.Maui.DataSource.dll",
+        "lib/net8.0/Syncfusion.Maui.DataSource.xml",
+        "syncfusion.maui.datasource.24.2.9.nupkg.sha512",
+        "syncfusion.maui.datasource.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.GridCommon/24.2.9": {
+      "sha512": "DMR6l0g7Zi22ckHaoHVgR8MMAFA20VMcJUL8cGOgXj2dVZYJIEvvWB3AysWEFRrRncaIAJ9izdhJEffWTC0BSw==",
+      "type": "package",
+      "path": "syncfusion.maui.gridcommon/24.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.GridCommon.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.GridCommon.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.GridCommon.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.GridCommon.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.GridCommon.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.xml",
+        "lib/net7.0/Syncfusion.Maui.GridCommon.deps.json",
+        "lib/net7.0/Syncfusion.Maui.GridCommon.dll",
+        "lib/net7.0/Syncfusion.Maui.GridCommon.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.GridCommon.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.GridCommon.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.GridCommon.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.GridCommon.xml",
+        "lib/net8.0/Syncfusion.Maui.GridCommon.deps.json",
+        "lib/net8.0/Syncfusion.Maui.GridCommon.dll",
+        "lib/net8.0/Syncfusion.Maui.GridCommon.xml",
+        "syncfusion.maui.gridcommon.24.2.9.nupkg.sha512",
+        "syncfusion.maui.gridcommon.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Inputs/24.2.9": {
+      "sha512": "tcKyAbdBveesJLDGUvzu/mIo9PH2kYH2FaZVCk8/p847Vyym2j9inPcDSRkMBeb5DgOZfmpvCDMqkVYENQhmsA==",
+      "type": "package",
+      "path": "syncfusion.maui.inputs/24.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Inputs.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Inputs.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Inputs.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Inputs.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Inputs.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Inputs.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.xml",
+        "lib/net7.0/Syncfusion.Maui.Inputs.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Inputs.dll",
+        "lib/net7.0/Syncfusion.Maui.Inputs.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Inputs.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Inputs.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Inputs.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Inputs.xml",
+        "lib/net8.0/Syncfusion.Maui.Inputs.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Inputs.dll",
+        "lib/net8.0/Syncfusion.Maui.Inputs.xml",
+        "syncfusion.maui.inputs.24.2.9.nupkg.sha512",
+        "syncfusion.maui.inputs.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.ListView/24.2.9": {
+      "sha512": "eNFkDCroJKyXgqAv9e1OOEOeJdC1izkSJdqwn1CFCYZPpGB/PNOgNjYgVvnBEyS6jowLuHQHzcwM1yqUnuGKZw==",
+      "type": "package",
+      "path": "syncfusion.maui.listview/24.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.ListView.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.ListView.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.ListView.xml",
+        "lib/net7.0-android33.0/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.ListView.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.ListView.xml",
+        "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.ListView.xml",
+        "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.ListView.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.ListView.xml",
+        "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net7.0/Syncfusion.Maui.ListView.deps.json",
+        "lib/net7.0/Syncfusion.Maui.ListView.dll",
+        "lib/net7.0/Syncfusion.Maui.ListView.xml",
+        "lib/net7.0/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.ListView.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.ListView.xml",
+        "lib/net8.0-android34.0/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.ListView.xml",
+        "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.ListView.xml",
+        "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.ListView.xml",
+        "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "lib/net8.0/Syncfusion.Maui.ListView.deps.json",
+        "lib/net8.0/Syncfusion.Maui.ListView.dll",
+        "lib/net8.0/Syncfusion.Maui.ListView.xml",
+        "lib/net8.0/en-US/Syncfusion.Maui.ListView.resources.dll",
+        "syncfusion.maui.listview.24.2.9.nupkg.sha512",
+        "syncfusion.maui.listview.nuspec",
         "syncfusion_logo.png"
       ]
     },
@@ -67719,6 +71099,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
       "Syncfusion.Maui.Buttons >= 24.2.9",
+      "Syncfusion.Maui.DataGrid >= 24.2.9",
       "Syncfusion.Maui.Picker >= 24.2.8",
       "Syncfusion.Maui.Scheduler >= 24.2.8",
       "augalinga.Data >= 1.0.0"
@@ -67729,6 +71110,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
       "Syncfusion.Maui.Buttons >= 24.2.9",
+      "Syncfusion.Maui.DataGrid >= 24.2.9",
       "Syncfusion.Maui.Picker >= 24.2.8",
       "Syncfusion.Maui.Scheduler >= 24.2.8",
       "augalinga.Data >= 1.0.0"
@@ -67739,6 +71121,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
       "Syncfusion.Maui.Buttons >= 24.2.9",
+      "Syncfusion.Maui.DataGrid >= 24.2.9",
       "Syncfusion.Maui.Picker >= 24.2.8",
       "Syncfusion.Maui.Scheduler >= 24.2.8",
       "augalinga.Data >= 1.0.0"
@@ -67748,6 +71131,7 @@
       "Microsoft.Maui.Controls >= 8.0.6",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.6",
       "Syncfusion.Maui.Buttons >= 24.2.9",
+      "Syncfusion.Maui.DataGrid >= 24.2.9",
       "Syncfusion.Maui.Picker >= 24.2.8",
       "Syncfusion.Maui.Scheduler >= 24.2.8",
       "augalinga.Data >= 1.0.0"
@@ -67858,6 +71242,10 @@
             "target": "Package",
             "version": "[24.2.9, )"
           },
+          "Syncfusion.Maui.DataGrid": {
+            "target": "Package",
+            "version": "[24.2.9, )"
+          },
           "Syncfusion.Maui.Picker": {
             "target": "Package",
             "version": "[24.2.8, )"
@@ -67910,6 +71298,10 @@
             "autoReferenced": true
           },
           "Syncfusion.Maui.Buttons": {
+            "target": "Package",
+            "version": "[24.2.9, )"
+          },
+          "Syncfusion.Maui.DataGrid": {
             "target": "Package",
             "version": "[24.2.9, )"
           },
@@ -67968,6 +71360,10 @@
             "target": "Package",
             "version": "[24.2.9, )"
           },
+          "Syncfusion.Maui.DataGrid": {
+            "target": "Package",
+            "version": "[24.2.9, )"
+          },
           "Syncfusion.Maui.Picker": {
             "target": "Package",
             "version": "[24.2.8, )"
@@ -68015,6 +71411,10 @@
             "version": "[8.0.6, )"
           },
           "Syncfusion.Maui.Buttons": {
+            "target": "Package",
+            "version": "[24.2.9, )"
+          },
+          "Syncfusion.Maui.DataGrid": {
             "target": "Package",
             "version": "[24.2.9, )"
           },

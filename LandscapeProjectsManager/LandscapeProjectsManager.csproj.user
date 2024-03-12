@@ -27,6 +27,9 @@
     <MauiXaml Update="MVVM\Views\Contacts\AddContact.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\Contacts\ContactView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\ProjectsViews\AddProjectPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

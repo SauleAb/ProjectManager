@@ -33,7 +33,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="0">
-                    <Button Text="Nurseries"
+                    <Button x:Name="NurseriesButton" Text="Nurseries"
                         FontSize="40"
                         Grid.Column="0" Grid.Row="0"
                         HorizontalOptions="Center"
@@ -43,10 +43,11 @@
                         FontFamily="TitleFont"
                         BackgroundColor="Transparent"
                         BorderWidth="0"
-                        TextColor="Black"/>
+                        TextColor="Black"
+                        Clicked="NurseriesButton_Clicked"/>
                 </Frame>
                 <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="0">
-                    <Button Text="Transport"
+                    <Button x:Name="TransportButton" Text="Transport"
                         FontSize="40"
                         Grid.Column="1" Grid.Row="0"
                         HorizontalOptions="Center"
@@ -56,10 +57,11 @@
                         FontFamily="TitleFont"
                         BackgroundColor="Transparent"
                         BorderWidth="0"
-                        TextColor="Black"/>
+                        TextColor="Black"
+                        Clicked="TransportButton_Clicked"/>
                 </Frame>
                 <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="1">
-                    <Button Text="Manufacture"
+                    <Button x:Name="ManufactureButton" Text="Manufacture"
                         FontSize="40"
                         Grid.Column="0" Grid.Row="1"
                         HorizontalOptions="Center"
@@ -69,10 +71,11 @@
                         FontFamily="TitleFont"
                         BackgroundColor="Transparent"
                         BorderWidth="0"
-                        TextColor="Black"/>
+                        TextColor="Black"
+                        Clicked="ManufactureButton_Clicked"/>
                 </Frame>
                 <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="1">
-                    <Button Text="Colleagues"
+                    <Button x:Name="ColleaguesButton" Text="Colleagues"
                         FontSize="40"
                         Grid.Column="1" Grid.Row="1"
                         HorizontalOptions="Center"
@@ -82,7 +85,8 @@
                         FontFamily="TitleFont"
                         BackgroundColor="Transparent"
                         BorderWidth="0"
-                        TextColor="Black"/>
+                        TextColor="Black"
+                        Clicked="ColleaguesButton_Clicked"/>
                 </Frame>
             </Grid>
         </Grid>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QzNWv3FrPakYYCsGbWuH8suMemYuqGrBlyfdlmOjb/JBnBjXVHGQ8wptylzJfBHBXr8wpTGdBRf60989euTCug==",
+  "dgSpecHash": "a5XUuxYWB8a4RQZhHwcXJgi+tq/rBpuCEzDWwPAJIo4q2SrGnRcSsikdPOXfUd/8dr46HdVkDTSiQgNSKHBsaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
   "expectedPackageFiles": [
@@ -73,6 +73,12 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.licensing\\24.2.9\\syncfusion.licensing.24.2.9.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.buttons\\24.2.9\\syncfusion.maui.buttons.24.2.9.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.core\\24.2.9\\syncfusion.maui.core.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.data\\24.2.9\\syncfusion.maui.data.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.datagrid\\24.2.9\\syncfusion.maui.datagrid.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.datasource\\24.2.9\\syncfusion.maui.datasource.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.gridcommon\\24.2.9\\syncfusion.maui.gridcommon.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.inputs\\24.2.9\\syncfusion.maui.inputs.24.2.9.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.listview\\24.2.9\\syncfusion.maui.listview.24.2.9.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.picker\\24.2.8\\syncfusion.maui.picker.24.2.8.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.popup\\24.2.8\\syncfusion.maui.popup.24.2.8.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\syncfusion.maui.scheduler\\24.2.8\\syncfusion.maui.scheduler.24.2.8.nupkg.sha512",
