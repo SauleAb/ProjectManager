@@ -30,7 +30,7 @@
                     <Entry x:Name="EntryAddress" WidthRequest="200" Placeholder="Address" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
                     <Button Text="Add contact" Clicked="AddContactButton_Clicked" WidthRequest="150" Margin="20" Background="Transparent" TextColor="Black" BorderColor="Black"/>
                 </StackLayout>
-                <StackLayout/>
+                <StackLayout Grid.Column="2"/>
             </Grid>
         </Frame>
     </Grid>
