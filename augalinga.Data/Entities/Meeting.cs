@@ -19,6 +19,7 @@ namespace augalinga.Data.Entities
         public bool IsAllDay { get; set; }
         public string EventName { get; set; }
         public string Notes { get; set; }
+        public string Employee {  get; set; }
         public string Background { get; set; }
 
         [NotMapped]

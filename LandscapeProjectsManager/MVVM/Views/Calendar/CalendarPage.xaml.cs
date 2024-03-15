@@ -6,10 +6,13 @@ namespace LandscapeProjectsManager
     public partial class CalendarPage : ContentPage
     {
         private CalendarViewModel viewModel;
+        private bool baronaite = true;
+        private bool gudaityte = true;
+        private bool both = true;
         public CalendarPage()
         {
             InitializeComponent();
-            viewModel = new CalendarViewModel();
+            viewModel = new CalendarViewModel(baronaite, gudaityte, both);
             this.BindingContext = viewModel;
         }
 
@@ -43,6 +46,8 @@ namespace LandscapeProjectsManager
             yellowEmptyCircle.IsVisible = true;
             yellowCircle.IsVisible = false;
             yellowCircle.IsEnabled = false;
+            baronaite = false;
+            viewModel.LoadEvents(baronaite, gudaityte, both);
             // ImageButton button = (ImageButton)sender;
             // 
             // if (button.Source.ToString() == "FileImageSource{yellowcircle.png}")
@@ -61,6 +66,8 @@ namespace LandscapeProjectsManager
             yellowEmptyCircle.IsVisible = false;
             yellowCircle.IsVisible = true;
             yellowCircle.IsEnabled = true;
+            baronaite = true;
+            viewModel.LoadEvents(baronaite, gudaityte, both);
         }
 
         private void blueCircle_Clicked(object sender, EventArgs e)
@@ -69,14 +76,18 @@ namespace LandscapeProjectsManager
             blueEmptyCircle.IsVisible = true;
             blueCircle.IsVisible = false;
             blueCircle.IsEnabled = false;
+            gudaityte = false;
+            viewModel.LoadEvents(baronaite, gudaityte, both);
         }
 
-            private void blueEmptyCircle_Clicked(object sender, EventArgs e)
+        private void blueEmptyCircle_Clicked(object sender, EventArgs e)
         {
             blueEmptyCircle.IsEnabled = false;
             blueEmptyCircle.IsVisible = false;
             blueCircle.IsVisible = true;
             blueCircle.IsEnabled = true;
+            gudaityte = true;
+            viewModel.LoadEvents(baronaite, gudaityte, both);
         }
 
         private void redCircle_Clicked(object sender, EventArgs e)
@@ -85,6 +96,8 @@ namespace LandscapeProjectsManager
             redEmptyCircle.IsVisible = true;
             redCircle.IsVisible = false;
             redCircle.IsEnabled = false;
+            both = false;
+            viewModel.LoadEvents(baronaite, gudaityte, both);
         }
 
         private void redEmptyCircle_Clicked(object sender, EventArgs e)
@@ -93,6 +106,8 @@ namespace LandscapeProjectsManager
             redEmptyCircle.IsVisible = false;
             redCircle.IsVisible = true;
             redCircle.IsEnabled = true;
+            both = true;
+            viewModel.LoadEvents(baronaite, gudaityte, both);
         }
     }
 }

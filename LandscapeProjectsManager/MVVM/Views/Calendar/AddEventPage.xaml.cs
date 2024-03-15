@@ -1,5 +1,6 @@
 using augalinga.Data.Access;
 using augalinga.Data.Entities;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Syncfusion.Maui.Scheduler;
 using System;
 using System.Globalization;
@@ -46,6 +47,7 @@ namespace LandscapeProjectsManager.MVVM.Views
                     To = to,
                     EventName = eventName,
                     IsAllDay = false,
+                    Employee = GetSelectedEmployee(isBaronaiteChecked, isGudaityteChecked, isBothChecked),
                     Background = GetSelectedColor(isBaronaiteChecked, isGudaityteChecked, isBothChecked),
                     Notes = "Added from AddEventPage",
                 };
@@ -62,6 +64,23 @@ namespace LandscapeProjectsManager.MVVM.Views
             {
                 await DisplayAlert("Alert", "Fill in all required fields!", "OK");
             }
+        }
+
+        private string GetSelectedEmployee(bool isBaronaiteChecked, bool isGudaityteChecked, bool isBothChecked)
+        {
+            if (isBaronaiteChecked)
+            {
+                return "Baronaite";
+            }
+            else if (isGudaityteChecked)
+            {
+                return "Gudaityte";
+            }
+            else if (isBothChecked)
+            {
+                return "Both";
+            }
+            return "";
         }
 
         private string GetSelectedColor(bool isBaronaiteChecked, bool isGudaityteChecked, bool isBothChecked)

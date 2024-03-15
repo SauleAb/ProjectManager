@@ -17,22 +17,43 @@ public class CalendarViewModel : INotifyPropertyChanged
             OnPropertyChanged(nameof(Events));
         }
     }
-
     public CalendarViewModel()
     {
-        LoadEvents();
+
     }
 
-    private void LoadEvents()
+    public CalendarViewModel(bool baronaite, bool gudaityte, bool both)
     {
-        var meetings = new DataContext().Meetings.ToList();
-        Events = new ObservableCollection<Meeting>(meetings);
+        LoadEvents(baronaite,gudaityte,both);
+    }
+
+    public void LoadEvents(bool baronaite, bool gudaityte, bool both)
+    {
+        using (var dbContext = new DataContext())
+        {
+            IQueryable<Meeting> query = dbContext.Meetings.AsQueryable();
+
+            if (!baronaite)
+            {
+                query = query.Where(m => m.Employee != "Baronaite");
+            }
+            if (!gudaityte)
+            {
+                query = query.Where(m => m.Employee != "Gudaityte");
+            }
+            if (!both)
+            {
+                query = query.Where(m => m.Employee != "Both");
+            }
+
+            var meetings = query.ToList();
+            Events = new ObservableCollection<Meeting>(meetings);
+        }
     }
 
     public void AddEventToCollection(Meeting newMeeting)
     {
         Events.Add(newMeeting);
-        LoadEvents();
     }
 
     public event PropertyChangedEventHandler PropertyChanged;
