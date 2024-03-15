@@ -36,15 +36,18 @@
                 </Grid.ColumnDefinitions>
                 <StackLayout Grid.Column="0" Orientation="Horizontal">
                     <StackLayout Orientation="Horizontal" Spacing="5" Margin="0,0,20,0">
-                        <Image Source="yellowcircle.png" HeightRequest="40" WidthRequest="40"/>
+                        <ImageButton x:Name="yellowCircle" Background="Transparent" Source="yellowcircle.png" HeightRequest="40" WidthRequest="40" Clicked="yellowCircle_Clicked" IsEnabled="True" IsVisible="True"/>
+                        <ImageButton x:Name="yellowEmptyCircle" Background="Transparent" Source="yellowemptycircle.png" HeightRequest="40" WidthRequest="40" Clicked="yellowEmptyCircle_Clicked" IsVisible="False" IsEnabled="False" />
                         <Label Text="Laura Baronaite" HeightRequest="20" VerticalOptions="Center"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="5" Margin="0,0,20,0">
-                        <Image Source="bluecircle.png" HeightRequest="40" WidthRequest="40"/>
+                        <ImageButton x:Name="blueCircle" Background="Transparent" Source="bluecircle.png" HeightRequest="40" WidthRequest="40" Clicked="blueCircle_Clicked" IsEnabled="True" IsVisible="True"/>
+                        <ImageButton x:Name="blueEmptyCircle" Background="Transparent" Source="blueemptycircle.png" HeightRequest="40" WidthRequest="40" Clicked="blueEmptyCircle_Clicked" IsVisible="False" IsEnabled="False" />
                         <Label Text="Laura Gudaite" HeightRequest="20" VerticalOptions="Center"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="5" Margin="0,0,20,0">
-                        <Image Source="redcircle.png" HeightRequest="40" WidthRequest="40"/>
+                        <ImageButton x:Name="redCircle" Background="Transparent" Source="redcircle.png" HeightRequest="40" WidthRequest="40" Clicked="redCircle_Clicked" IsEnabled="True" IsVisible="True"/>
+                        <ImageButton x:Name="redEmptyCircle" Background="Transparent" Source="redemptycircle.png" HeightRequest="40" WidthRequest="40" Clicked="redEmptyCircle_Clicked" IsVisible="False" IsEnabled="False" />
                         <Label Text="Both" HeightRequest="20" VerticalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
