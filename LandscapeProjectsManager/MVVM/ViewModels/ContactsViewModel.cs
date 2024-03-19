@@ -29,15 +29,19 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
             }
         }
 
-        public void AddContactToCollection(Contact contact)
-        {
-            Contacts.Add(contact);
-        }
-
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public void RemoveContact(Contact contact)
+        {
+            using (var dbContext = new DataContext())
+            {
+                dbContext.Contacts.Remove(contact);
+                dbContext.SaveChanges();
+            }
         }
 
         private void LoadContacts(string category)

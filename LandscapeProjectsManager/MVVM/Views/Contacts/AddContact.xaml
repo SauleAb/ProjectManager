@@ -15,7 +15,7 @@
                 <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" MaximumWidthRequest="600" Grid.Column="1">
                     <Label Text="Add a contact" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" Margin="0,0,0,20"/>
-                    <Picker x:Name="ContactCategoryPicker" Title="Select category" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="0,0,0,20">
+                    <Picker x:Name="ContactCategoryPicker" Title="Select category" HorizontalOptions="Center" HorizontalTextAlignment="Center" WidthRequest="200" Margin="0,0,0,20">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Nurseries</x:String>
@@ -25,9 +25,10 @@
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                    <Entry x:Name="EntryName" WidthRequest="200" Placeholder="Name" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
-                    <Entry x:Name="EntryPhone" Text="+370" WidthRequest="200" Placeholder="Phone number" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
-                    <Entry x:Name="EntryAddress" WidthRequest="200" Placeholder="Address" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
+                    <Entry x:Name="EntryName" WidthRequest="200" Placeholder="Name" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="10"/>
+                    <Entry x:Name="EntryPhone" Text="+370" WidthRequest="200" Placeholder="Phone number" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="10"/>
+                    <Entry x:Name="EntryAddress" WidthRequest="200" Placeholder="Address" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="10"/>
+                    <Editor x:Name="EntryNotes" WidthRequest="200" HeightRequest="100" Placeholder="Notes" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="10"/>
                     <Button Text="Add contact" Clicked="AddContactButton_Clicked" WidthRequest="150" Margin="20" Background="Transparent" TextColor="Black" BorderColor="Black"/>
                 </StackLayout>
                 <StackLayout Grid.Column="2"/>

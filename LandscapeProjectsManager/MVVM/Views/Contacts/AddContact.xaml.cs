@@ -12,6 +12,12 @@ public partial class AddContact : ContentPage
 		InitializeComponent();
 	}
 
+    public AddContact(string category)
+    {
+        InitializeComponent();
+        ContactCategoryPicker.SelectedItem = category;
+    }
+
     private async void BackButton_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.Navigation.PopAsync();
@@ -23,6 +29,7 @@ public partial class AddContact : ContentPage
         string contactName = EntryName.Text;
         string contactNumber = EntryPhone.Text;
         string contactAddress = EntryAddress.Text;
+        string contactNotes = EntryNotes.Text;
 
         if (!string.IsNullOrWhiteSpace(contactName) && !string.IsNullOrWhiteSpace(contactNumber))
         {
@@ -32,6 +39,7 @@ public partial class AddContact : ContentPage
                 Name = contactName,
                 Number = contactNumber,
                 Address = contactAddress,
+                Notes = contactNotes
             };
 
             await DataContext.Contacts.AddAsync(newContact);
