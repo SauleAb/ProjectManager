@@ -47,5 +47,21 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
             Projects = new ObservableCollection<Project>(projects);
         }
 
+        public void RemoveProject(string projectName)
+        {
+            //local
+            var projectToRemove = Projects.FirstOrDefault(p => p.Name == projectName);
+            Projects.Remove(projectToRemove);
+
+            //database
+            using (var dbContext = new DataContext())
+            {
+                dbContext.Projects.Remove(projectToRemove);
+                dbContext.SaveChanges();
+            }
+
+            LoadProjects();
+        }
+
     }
 }
