@@ -41,7 +41,7 @@
                                         VerticalOptions="Center"
                                         WidthRequest="300"
                                         HeightRequest="200"
-                                        FontFamily="TitleFont"
+                                        FontFamily="AppFont"
                                         BackgroundColor="Transparent"
                                         BorderWidth="0"
                                         TextColor="Black"

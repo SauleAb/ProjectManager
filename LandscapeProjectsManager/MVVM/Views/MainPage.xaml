@@ -15,38 +15,41 @@
             <StackLayout HorizontalOptions="Center">
                     <Label
                         Text="Calendar"
-                        FontSize="70" 
+                        FontFamily="TitleFont"
+                        FontSize="90" 
                         HorizontalOptions="Center">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnCalendarLabelTapped"/>
                         </Label.GestureRecognizers> 
                     </Label>
 
-                    <BoxView Color="LightBlue" HeightRequest="4" WidthRequest="330" Margin="0,0,0,0" />
+                    <BoxView Color="LightBlue" HeightRequest="4" WidthRequest="400" Margin="0,0,0,0" />
             </StackLayout>
 
             <StackLayout HorizontalOptions="Center">
             <Label
                 Text="Contacts"
-                FontSize="70"
+                FontSize="90"
+                FontFamily="TitleFont"
                 HorizontalOptions="Center">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnContactsLabelTapped"/>
                 </Label.GestureRecognizers> 
             </Label>
-            <BoxView Color="LightGreen" HeightRequest="4" WidthRequest="330" Margin="0,0,0,0" />
+            <BoxView Color="LightGreen" HeightRequest="4" WidthRequest="400" Margin="0,0,0,0" />
             </StackLayout>
 
             <StackLayout HorizontalOptions="Center">
             <Label
                 Text="Projects"
-                FontSize="70" 
+                FontSize="90" 
+                FontFamily="TitleFont"
                 HorizontalOptions="Center">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnProjectsLabelTapped"/>
                 </Label.GestureRecognizers>
             </Label>
-            <BoxView Color="Orange" HeightRequest="4" WidthRequest="330" Margin="0,0,0,0" />
+            <BoxView Color="Orange" HeightRequest="4" WidthRequest="400" Margin="0,0,0,0" />
             </StackLayout>
         </VerticalStackLayout>
     </ScrollView>

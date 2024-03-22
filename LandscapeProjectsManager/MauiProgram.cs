@@ -12,7 +12,8 @@ namespace LandscapeProjectsManager
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("Pompiere-Regular.ttf", "TitleFont");
+                    fonts.AddFont("Goldoni_DEMO.otf", "TitleFont");
+                    fonts.AddFont("Pompiere-Regular.ttf", "AppFont");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });

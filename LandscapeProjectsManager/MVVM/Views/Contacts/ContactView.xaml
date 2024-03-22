@@ -19,7 +19,7 @@
                 <ColumnDefinition Width="70"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
-            <Label x:Name="ContactsLabel" Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1"/>
+            <Label x:Name="ContactsLabel" Text="Contacts" FontFamily="AppFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1"/>
             <syncfusion:SfDataGrid x:Name="dataGrid" AutoGenerateColumnsMode="None" ItemsSource="{Binding Contacts}" SelectionMode="Single" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Margin="0,30,0,0"  MinimumWidthRequest="800">
                 <syncfusion:SfDataGrid.Columns>
                     <syncfusion:DataGridTextColumn HeaderText="Name" MappingName="Name" Width="200"/>
