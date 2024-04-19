@@ -16,7 +16,7 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Frame BorderColor="Black" Grid.Column="0" CornerRadius="10" BackgroundColor="Transparent" Margin="10">
+                <Frame BorderColor="Black" Grid.Column="0" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10">
                     <Button Text="Before"
                             Grid.Column="0"
                             Grid.Row="0"
@@ -31,7 +31,7 @@
                             TextColor="Black"
                             Clicked="Before_Clicked"/>
                 </Frame>
-                <Frame BorderColor="Black" Grid.Column="1" CornerRadius="10" BackgroundColor="Transparent" Margin="10">
+                <Frame BorderColor="Black" Grid.Column="1" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10">
                     <Button Text="After"
                             Grid.Column="1"
                             Grid.Row="0"

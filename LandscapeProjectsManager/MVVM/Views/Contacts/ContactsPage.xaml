@@ -6,7 +6,7 @@
              Title="Contacts">
     <Grid>
     <Image Source="contacts_background.png" Aspect="AspectFill"/>
-        <Grid>
+        <Grid Padding="10" RowSpacing="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
@@ -18,7 +18,7 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="65" />
                 </Grid.ColumnDefinitions>
-                <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                 <Label Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>
                 <StackLayout Grid.Column="2"/>
             </Grid>
@@ -32,9 +32,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="0">
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="0" Grid.Row="0">
                     <Button x:Name="NurseriesButton" Text="Nurseries"
-                        FontSize="40"
+                        FontSize="60"
                         Grid.Column="0" Grid.Row="0"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
@@ -46,9 +46,9 @@
                         TextColor="Black"
                         Clicked="NurseriesButton_Clicked"/>
                 </Frame>
-                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="0">
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="1" Grid.Row="0">
                     <Button x:Name="TransportButton" Text="Transport"
-                        FontSize="40"
+                        FontSize="60"
                         Grid.Column="1" Grid.Row="0"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
@@ -60,9 +60,9 @@
                         TextColor="Black"
                         Clicked="TransportButton_Clicked"/>
                 </Frame>
-                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="1">
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="0" Grid.Row="1">
                     <Button x:Name="ManufactureButton" Text="Manufacture"
-                        FontSize="40"
+                        FontSize="60"
                         Grid.Column="0" Grid.Row="1"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
@@ -74,9 +74,9 @@
                         TextColor="Black"
                         Clicked="ManufactureButton_Clicked"/>
                 </Frame>
-                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="1">
+                <Frame BorderColor="White" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="1" Grid.Row="1">
                     <Button x:Name="ColleaguesButton" Text="Colleagues"
-                        FontSize="40"
+                        FontSize="60"
                         Grid.Column="1" Grid.Row="1"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"

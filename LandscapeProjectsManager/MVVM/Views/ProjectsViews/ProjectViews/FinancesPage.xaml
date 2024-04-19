@@ -16,7 +16,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="0" Grid.Row="0">
+            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="0" Grid.Row="0">
                 <Button Text="Income"
                 FontSize="40"
                 Grid.Column="0" Grid.Row="0"
@@ -29,7 +29,7 @@
                 BorderWidth="0"
                 TextColor="Black"/>
             </Frame>
-            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="1" Grid.Row="0">
+            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="1" Grid.Row="0">
                 <Button Text="Outcome"
                 FontSize="40"
                 Grid.Column="1" Grid.Row="0"
@@ -42,7 +42,7 @@
                 BorderWidth="0"
                 TextColor="Black"/>
             </Frame>
-            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10" Grid.Column="2" Grid.Row="0">
+            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="2" Grid.Row="0">
                 <Button Text="Invoices"
                 FontSize="40"
                 Grid.Column="2" Grid.Row="0"

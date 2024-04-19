@@ -7,7 +7,7 @@
     <ScrollView>
         <Grid>
             <Image Source="projects_background.png" Aspect="AspectFill"/>
-            <Grid>
+            <Grid Padding="10" RowSpacing="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
@@ -19,7 +19,7 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="65" />
                     </Grid.ColumnDefinitions>
-                    <Button Text="+" Clicked="AddProject_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                    <Button Text="+" Clicked="AddProject_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                     <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>
                     <StackLayout Grid.Column="2"/>
                 </Grid>
@@ -33,10 +33,10 @@
                         Grid.Row="1">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
-                            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="Transparent" Margin="10">
+                            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10">
                                 <Button x:Name="ProjectButton"
                                         Text="{Binding Name}"
-                                        FontSize="40"
+                                        FontSize="50"
                                         HorizontalOptions="Center"
                                         VerticalOptions="Center"
                                         WidthRequest="300"
