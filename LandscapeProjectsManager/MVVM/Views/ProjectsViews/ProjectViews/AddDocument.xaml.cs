@@ -1,10 +1,18 @@
+using Amazon;
+using Amazon.S3;
 using augalinga.Data.Access;
+using LandscapeProjectsManager.MVVM.Models;
+using Windows.Media.Protection.PlayReady;
 
 namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews;
 
 public partial class AddDocument : ContentPage
 {
-	public AddDocument()
+    string bucket = "augalinga-app";
+    string filePath;
+    string fileName;
+    IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
+    public AddDocument()
 	{
 		InitializeComponent();
 	}
@@ -21,12 +29,14 @@ public partial class AddDocument : ContentPage
             PickerTitle = "Pick a document",
             FileTypes = FilePickerFileType.Pdf
         });
-        var documentSource = document.FullPath.ToString();
-        outputText.Text = documentSource;
+        filePath = document.FullPath.ToString();
+        fileName = document.FileName.ToString();
+        outputText.Text = filePath;
     }
 
     private async void AddDocumentButton_Clicked(object sender, EventArgs e)
     {
-
+        await S3Bucket.UploadFileAsync(s3Client, bucket, fileName, filePath);
+        await Shell.Current.Navigation.PopAsync();
     }
 }
