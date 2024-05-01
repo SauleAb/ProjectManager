@@ -8,17 +8,17 @@
         <Frame HorizontalOptions="Center" VerticalOptions="Center" BorderColor="Black">
             <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="70" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
-                <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                <Button Text="x" Clicked="BackButton_Clicked"  Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" MaximumWidthRequest="600" Grid.Column="1">
                     <Label Text="Add a project" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" />
                     <Entry x:Name="EntryProjectName" WidthRequest="200" Placeholder="Name" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="15"/>
                     <Button Text="Add project" Clicked="AddProjectButton_Clicked" WidthRequest="150" Margin="20" Background="Transparent" TextColor="Black" BorderColor="Black"/>
                 </StackLayout>
-                <StackLayout/>
+                <StackLayout Grid.Column="2"/>
             </Grid>
         </Frame>
     </Grid>

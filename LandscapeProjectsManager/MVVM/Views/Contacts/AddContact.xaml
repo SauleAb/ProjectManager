@@ -8,9 +8,9 @@
         <Frame HorizontalOptions="Center" VerticalOptions="Center" BorderColor="Black">
             <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Padding="20">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="70" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
                 <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" MaximumWidthRequest="600" Grid.Column="1">
