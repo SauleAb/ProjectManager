@@ -9,6 +9,7 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews;
 public partial class AddDocument : ContentPage
 {
     string bucket = "augalinga-app";
+    string folder = "documents/";
     string filePath;
     string fileName;
     IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
@@ -36,7 +37,8 @@ public partial class AddDocument : ContentPage
 
     private async void AddDocumentButton_Clicked(object sender, EventArgs e)
     {
-        await S3Bucket.UploadFileAsync(s3Client, bucket, fileName, filePath);
+        string objectKey = folder + fileName;
+        await S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
         await Shell.Current.Navigation.PopAsync();
     }
 }
