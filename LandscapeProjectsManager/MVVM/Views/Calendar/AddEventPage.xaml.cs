@@ -9,7 +9,6 @@ namespace LandscapeProjectsManager.MVVM.Views
 {
     public partial class AddEventPage : ContentPage
     {
-        private DateTime selectedDateTime;
         private CalendarViewModel calendarViewModel;
 
         public DateTime SelectedDateTime { get; set; }

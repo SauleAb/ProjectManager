@@ -28,7 +28,7 @@ public partial class ProjectPage : ContentPage
 
     private async void Documents_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new DocumentsPage());
+        await Navigation.PushAsync(new DocumentsPage(_projectName));
     }
 
     private async void Orders_Clicked(object sender, EventArgs e)
