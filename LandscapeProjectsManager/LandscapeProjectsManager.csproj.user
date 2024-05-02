@@ -36,6 +36,9 @@
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\AddDocument.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\AddPhoto.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\AfterPhotosPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

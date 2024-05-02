@@ -14,9 +14,9 @@
 
             <Grid HorizontalOptions="FillAndExpand" Grid.Row="0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="65" />
+                    <ColumnDefinition Width="70" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="65" />
+                    <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
                 <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
                 <Label Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>

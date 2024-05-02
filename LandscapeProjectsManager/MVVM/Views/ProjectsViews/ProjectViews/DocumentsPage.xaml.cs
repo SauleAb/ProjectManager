@@ -8,7 +8,6 @@ using LandscapeProjectsManager.MVVM.ViewModels;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews;
 using Syncfusion.Maui.Core.Carousel;
 using Amazon.S3.Model;
-using Windows.Media.Protection.PlayReady;
 using Amazon.S3;
 using Amazon;
 
@@ -20,11 +19,12 @@ public partial class DocumentsPage : ContentPage
     string filePath;
     string fileName;
     IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
-    DocumentsViewModel _documentsViewModel = new DocumentsViewModel();
+    DocumentsViewModel _documentsViewModel;
     public DocumentsPage(string projectName)
 	{
 		InitializeComponent();
         _projectName = projectName;
+        _documentsViewModel = new DocumentsViewModel(_projectName);
         BindingContext = _documentsViewModel;
         DocumentsLabel.Text = _projectName + " Documents";
 	}

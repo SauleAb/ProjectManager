@@ -23,7 +23,7 @@ public partial class ProjectPage : ContentPage
 
     private async void Photos_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new PhotosPage());
+        await Navigation.PushAsync(new PhotosPage(_projectName));
     }
 
     private async void Documents_Clicked(object sender, EventArgs e)

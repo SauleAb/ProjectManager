@@ -1,9 +1,33 @@
+using augalinga.Data.Entities;
+using CommunityToolkit.Maui.Markup;
+using LandscapeProjectsManager.MVVM.ViewModels;
+using Syncfusion.Maui.Core.Carousel;
+
 namespace LandscapeProjectsManager.MVVM.Views.Projects.Project;
 
 public partial class BeforePhotosPage : ContentPage
 {
-	public BeforePhotosPage()
+    string _projectName;
+    PhotosViewModel _photosViewModel;
+    public BeforePhotosPage(string projectName)
 	{
 		InitializeComponent();
-	}
+        _projectName = projectName;
+        _photosViewModel = new PhotosViewModel(projectName);
+        BindingContext = _photosViewModel;
+        foreach (var photo in _photosViewModel.Photos)
+        {
+            var image = new Image
+            {
+                Source = ImageSource.FromStream(() => new MemoryStream(photo.Bytes)),
+                MaximumHeightRequest = 200,
+                MaximumWidthRequest = 300,
+            };
+            PhotoDisplay.Children.Add(image);
+        }
+    }
+    private async void DeleteButton_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -41,7 +41,7 @@ public partial class AddDocument : ContentPage
 
     private async void AddDocumentButton_Clicked(object sender, EventArgs e)
     {
-        string objectKey = folder + _projectName + "/" + fileName;
+        string objectKey = _projectName + "/" + folder + fileName;
 
         if (!string.IsNullOrWhiteSpace(outputText.Text))
         {

@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Azure;
 using System.Collections.ObjectModel;
+using Microsoft.Maui.Storage;
 
 namespace LandscapeProjectsManager.MVVM.Models
 {
@@ -34,6 +35,84 @@ namespace LandscapeProjectsManager.MVVM.Models
             else
             {
                 Console.WriteLine($"Could not upload {objectName} to {bucketName}.");
+                return false;
+            }
+        }
+
+        public static async Task<bool> UploadFilesAsync(IAmazonS3 client, string bucketName, IEnumerable<FileResult> objectNamesAndFilePaths)
+        {
+            try
+            {
+                foreach (var fileResult in objectNamesAndFilePaths)
+                {
+                    var request = new PutObjectRequest
+                    {
+                        BucketName = bucketName,
+                        Key = fileResult.FileName, // Use file name as the key
+                        FilePath = fileResult.FullPath,
+                    };
+
+                    var response = await client.PutObjectAsync(request);
+                    if (response.HttpStatusCode != System.Net.HttpStatusCode.OK)
+                    {
+                        Console.WriteLine($"Could not upload {fileResult.FileName} to {bucketName}.");
+                        return false;
+                    }
+                }
+
+                Console.WriteLine("All files uploaded successfully.");
+                return true;
+            }
+            catch (AmazonS3Exception ex)
+            {
+                Console.WriteLine($"Error encountered on server. Message: '{ex.Message}' while uploading files.");
+                return false;
+            }
+        }
+
+        public static async Task<bool> GetBucketPhotosAsync(IAmazonS3 client, string bucketName, ObservableCollection<byte[]> imageBytes)
+        {
+            try
+            {
+                var request = new ListObjectsV2Request
+                {
+                    BucketName = bucketName,
+                    MaxKeys = 5,
+                };
+                ListObjectsV2Response response;
+
+                do
+                {
+                    response = await client.ListObjectsV2Async(request);
+
+                    foreach (S3Object obj in response.S3Objects)
+                    {
+                        GetObjectRequest getObjectRequest = new GetObjectRequest
+                        {
+                            BucketName = bucketName,
+                            Key = obj.Key
+                        };
+
+                        using (GetObjectResponse getObjectResponse = await client.GetObjectAsync(getObjectRequest))
+                        using (Stream responseStream = getObjectResponse.ResponseStream)
+                        using (MemoryStream memoryStream = new MemoryStream())
+                        {
+                            await responseStream.CopyToAsync(memoryStream);
+                            byte[] bytes = memoryStream.ToArray();
+
+                            imageBytes.Add(bytes);
+                        }
+                    }
+
+                    request.ContinuationToken = response.NextContinuationToken;
+                }
+                while (response.IsTruncated);
+
+                return true;
+            }
+            catch (AmazonS3Exception ex)
+            {
+                Console.WriteLine($"Error encountered on server. Message: '{ex.Message}' while getting list of objects.");
                 return false;
             }
         }

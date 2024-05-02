@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQVrEAwA0cCgvlXo2jWHbB56ntjHtpWB+uwyzGAxETK71t/yZh9d5JgUgzKX3OeeyRGuET2hhEIQyHpqpvIF8g==",
+  "dgSpecHash": "4vRioSuC+jmu+UZbtgO+RFIFkKjBqx6ouZ0J9N/40mmb0xm+SdoREYJ5v9bwfiF/12THDXOwa41RlngUBDaANw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\ThinkPad\\.nuget\\packages\\awssdk.s3\\3.7.307.25\\awssdk.s3.3.7.307.25.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\communitytoolkit.maui.markup\\4.0.0\\communitytoolkit.maui.markup.4.0.0.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

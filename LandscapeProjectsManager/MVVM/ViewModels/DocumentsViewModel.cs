@@ -12,10 +12,11 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
 {
     public class DocumentsViewModel
     {
-
-        public DocumentsViewModel()
+        string _projectName;
+        public DocumentsViewModel(string projectName)
         {
-            LoadDocuments();
+            _projectName = projectName;
+            LoadDocuments(_projectName);
         }
 
         private ObservableCollection<Document> _documents;
@@ -32,7 +33,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
         public void AddDocumentToCollection(Document document)
         {
             Documents.Add(document);
-            LoadDocuments();
+            LoadDocuments(_projectName);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -41,10 +42,14 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        private void LoadDocuments()
+        private void LoadDocuments(string projectName)
         {
-            var documents = new DataContext().Documents.ToList();
-            Documents = new ObservableCollection<Document>(documents);
+            using (var context = new DataContext())
+            {
+                var documents = context.Documents.Where(document => document.Project == projectName).ToList();
+
+                Documents = new ObservableCollection<Document>(documents);
+            }
         }
 
         public void RemoveDocument(string documentLink)
@@ -60,7 +65,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
                 dbContext.SaveChanges();
             }
 
-            LoadDocuments();
+            LoadDocuments(_projectName);
         }
     }
 }
