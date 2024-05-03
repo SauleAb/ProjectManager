@@ -1,17 +1,16 @@
 using augalinga.Data.Entities;
 using CommunityToolkit.Maui.Markup;
 using LandscapeProjectsManager.MVVM.ViewModels;
-using Syncfusion.Maui.Core.Carousel;
 
-namespace LandscapeProjectsManager.MVVM.Views.Projects.Project;
+namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Photos;
 
 public partial class BeforePhotosPage : ContentPage
 {
     string _projectName;
     PhotosViewModel _photosViewModel;
     public BeforePhotosPage(string projectName)
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
         _projectName = projectName;
         _photosViewModel = new PhotosViewModel(projectName);
         BindingContext = _photosViewModel;
