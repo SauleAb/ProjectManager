@@ -12,7 +12,6 @@ public partial class AddPhoto : ContentPage
     string bucket = "augalinga-app";
     string folder = "photos/";
     string filePath;
-    string fileName;
     string _projectName;
     IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
     public DataContext DataContext { get; set; } = new DataContext();

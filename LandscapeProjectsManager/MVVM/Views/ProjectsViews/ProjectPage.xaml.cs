@@ -4,6 +4,7 @@ using LandscapeProjectsManager.MVVM.Views.Projects;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documents;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectContacts;
+using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectOrders;
 
 namespace LandscapeProjectsManager.MVVM.Views;
 
@@ -36,7 +37,7 @@ public partial class ProjectPage : ContentPage
 
     private async void Orders_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new OrdersPage());
+        await Navigation.PushAsync(new OrdersPage(_projectName));
     }
 
     private async void Drafts_Clicked(object sender, EventArgs e)
