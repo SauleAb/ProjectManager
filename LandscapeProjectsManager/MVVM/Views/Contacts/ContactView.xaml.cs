@@ -18,7 +18,7 @@ public partial class ContactView : ContentPage
 
     private async void AddContact_Clicked(object sender, EventArgs e)
     {
-        var modalPage = new AddContact(_category);
+        var modalPage = new AddContact(_category, viewModel);
         await Navigation.PushModalAsync(modalPage);
     }
 

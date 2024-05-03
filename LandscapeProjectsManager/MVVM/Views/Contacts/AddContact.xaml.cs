@@ -13,10 +13,11 @@ public partial class AddContact : ContentPage
 		InitializeComponent();
 	}
 
-    public AddContact(string category)
+    public AddContact(string category, ContactsViewModel contactsViewModel)
     {
         InitializeComponent();
         ContactCategoryPicker.SelectedItem = category;
+        _contactsViewModel = contactsViewModel;
     }
 
     private async void BackButton_Clicked(object sender, EventArgs e)
@@ -45,6 +46,10 @@ public partial class AddContact : ContentPage
 
             await DataContext.Contacts.AddAsync(newContact);
             await DataContext.SaveChangesAsync();
+            if (_contactsViewModel == null)
+            {
+                _contactsViewModel = new ContactsViewModel(category);
+            }
             _contactsViewModel.AddContactToCollection(newContact);
             await Shell.Current.Navigation.PopAsync();
         }
