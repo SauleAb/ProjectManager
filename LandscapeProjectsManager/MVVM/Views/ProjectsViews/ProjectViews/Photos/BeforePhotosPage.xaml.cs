@@ -8,11 +8,13 @@ public partial class BeforePhotosPage : ContentPage
 {
     string _projectName;
     PhotosViewModel _photosViewModel;
-    public BeforePhotosPage(string projectName)
+    string _category;
+    public BeforePhotosPage(string projectName, string category)
     {
         InitializeComponent();
         _projectName = projectName;
-        _photosViewModel = new PhotosViewModel(projectName);
+        _category = category;
+        _photosViewModel = new PhotosViewModel(projectName, _category);
         BindingContext = _photosViewModel;
         foreach (var photo in _photosViewModel.Photos)
         {

@@ -13,10 +13,12 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
     public class PhotosViewModel
     {
         string _projectName;
-        public PhotosViewModel(string projectName)
+        string _category;
+        public PhotosViewModel(string projectName, string category)
         {
             _projectName = projectName;
-            LoadPhotos(_projectName);
+            _category = category;
+            LoadPhotos(_projectName, _category);
         }
 
         private ObservableCollection<Photo> _photos;
@@ -33,7 +35,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
         public void AddPhotoToCollection(Photo photo)
         {
             Photos.Add(photo);
-            LoadPhotos(_projectName);
+            LoadPhotos(_projectName, _category);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -42,11 +44,13 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        private void LoadPhotos(string projectName)
+        private void LoadPhotos(string projectName, string category)
         {
             using (var context = new DataContext())
             {
-                var photos = context.Photos.Where(photo => photo.Project == projectName).ToList();
+                var photos = context.Photos
+                    .Where(photo => photo.Project == projectName && photo.Category == category)
+                    .ToList();
 
                 Photos = new ObservableCollection<Photo>(photos);
             }
@@ -65,7 +69,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
                 dbContext.SaveChanges();
             }
 
-            LoadPhotos(_projectName);
+            LoadPhotos(_projectName, _category);
         }
     }
 }

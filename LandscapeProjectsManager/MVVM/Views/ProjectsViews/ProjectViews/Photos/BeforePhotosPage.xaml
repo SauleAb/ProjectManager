@@ -25,7 +25,7 @@
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
             </FlexLayout>
-            <Button Text="Delete" Clicked="DeleteButton_Clicked" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center" Grid.Row="2" Grid.Column="2"/>
+            <ImageButton Source="delete.png" Clicked="DeleteButton_Clicked" Grid.Column="2" Grid.Row="2" Margin="10" HeightRequest="50" WidthRequest="50" Background="Transparent" />
         </Grid>
     </Grid>
 </ContentPage>

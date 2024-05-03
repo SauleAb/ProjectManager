@@ -15,12 +15,12 @@ public partial class PhotosPage : ContentPage
 
     private async void Before_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new BeforePhotosPage(_projectName));
+        await Navigation.PushAsync(new BeforePhotosPage(_projectName, "Before"));
     }
 
     private async void After_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new AfterPhotosPage());
+        await Navigation.PushAsync(new AfterPhotosPage(_projectName, "After"));
     }
 
     private async void AddPhoto_Clicked(object sender, EventArgs e)
