@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LandscapeProjectsManager.MVVM.Views.Projects.FinancesPage"
+             x:Class="LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectFinances.FinancesPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
              Shell.NavBarIsVisible="false"
              Title="FinancesPage">
+    <ContentPage.Resources>
+        <Style TargetType="syncfusion:DataGridCell">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="TextColor" Value="#212121"/>
+            <Setter Property="FontAttributes" Value="Italic"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        <Style TargetType="syncfusion:DataGridHeaderCell">
+            <Setter Property="Background" Value="#EFE9DC"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontFamily" Value="AppFont"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+    </ContentPage.Resources>
     <Grid>
         <Image Source="projects_background.png" Aspect="AspectFill"/>
-        <Label Text="Finances" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center"/>
-        <Grid VerticalOptions="Center">
+        <Grid RowSpacing="10">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="70"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="70"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="0" Grid.Row="0">
-                <Button Text="Income"
-                FontSize="40"
-                Grid.Column="0" Grid.Row="0"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                WidthRequest="300"
-                HeightRequest="200"
-                FontFamily="TitleFont"
-                BackgroundColor="Transparent"
-                BorderWidth="0"
-                TextColor="Black"/>
-            </Frame>
-            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="1" Grid.Row="0">
-                <Button Text="Outcome"
-                FontSize="40"
-                Grid.Column="1" Grid.Row="0"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                WidthRequest="300"
-                HeightRequest="200"
-                FontFamily="TitleFont"
-                BackgroundColor="Transparent"
-                BorderWidth="0"
-                TextColor="Black"/>
-            </Frame>
-            <Frame BorderColor="Black" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="2" Grid.Row="0">
-                <Button Text="Invoices"
-                FontSize="40"
-                Grid.Column="2" Grid.Row="0"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                WidthRequest="300"
-                HeightRequest="200"
-                FontFamily="TitleFont"
-                BackgroundColor="Transparent"
-                BorderWidth="0"
-                TextColor="Black"/>
-            </Frame>
+            <Button Text="+" Clicked="AddExpense_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+            <Label Text="Finances" x:Name="FinancesLabel" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1"/>
+            <Grid VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="300"/>
+                </Grid.ColumnDefinitions>
+                <Frame BorderColor="Black" CornerRadius="40" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="0" Grid.Row="0">
+                    <StackLayout Spacing="50">
+                        <Label Text="Income" FontSize="40" FontFamily="AppFont" HorizontalOptions="Center"/>
+                        <Label Text="2587€" x:Name="IncomeLabel" FontSize="50" FontFamily="AppFont" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="40" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="1" Grid.Row="0">
+                    <StackLayout Spacing="50">
+                        <Label Text="Outcome" FontSize="40" FontFamily="AppFont" HorizontalOptions="Center"/>
+                        <Label Text="1400€" x:Name="OutcomeLabel" FontSize="50" FontFamily="AppFont" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="40" BackgroundColor="#EFE9DC" Margin="10" Grid.Column="2" Grid.Row="0">
+                    <StackLayout Spacing="50">
+                        <Label Text="Total" FontSize="40" FontFamily="AppFont" HorizontalOptions="Center"/>
+                        <Label Text="1187€" x:Name="TotalLabel" FontSize="50" FontFamily="AppFont" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            <syncfusion:SfDataGrid x:Name="financesDataGrid" AutoGenerateColumnsMode="None" ItemsSource="{Binding Expenses}" SelectionMode="Single" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" Margin="0,30,0,0" MinimumWidthRequest="800">
+                <syncfusion:SfDataGrid.Columns>
+                    <syncfusion:DataGridTextColumn HeaderText="Transaction" MappingName="Transaction" Width="200"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Amount" MappingName="Amount" Width="200"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Date" MappingName="Date" Width="200"/>
+                    <syncfusion:DataGridTextColumn HeaderText="+/-" MappingName="Type" Width="100"/>
+                </syncfusion:SfDataGrid.Columns>
+            </syncfusion:SfDataGrid>
+            <ImageButton Source="delete.png" Clicked="DeleteButton_Clicked" Grid.Column="2" Grid.Row="3" Margin="10" HeightRequest="50" WidthRequest="50" Background="Transparent" />
         </Grid>
     </Grid>
 </ContentPage>

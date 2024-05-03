@@ -18,6 +18,7 @@ namespace augalinga.Data.Access
         public DbSet<Photo> Photos { get; set; }
         public DbSet<Draft> Drafts { get; set; }
         public DbSet<Order> Orders {  get; set; }
+        public DbSet<Expense> Expenses {  get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=augalingaDB;User Id=sa;Password=augalinga;TrustServerCertificate=True;");

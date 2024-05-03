@@ -90,6 +90,9 @@
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDrafts\AddDraft.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectFinances\AddExpense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectOrders\AddOrder.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

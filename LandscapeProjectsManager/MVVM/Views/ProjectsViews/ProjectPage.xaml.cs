@@ -4,6 +4,7 @@ using LandscapeProjectsManager.MVVM.Views.Projects;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documents;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectContacts;
+using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectFinances;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectOrders;
 
 namespace LandscapeProjectsManager.MVVM.Views;
@@ -47,7 +48,7 @@ public partial class ProjectPage : ContentPage
 
     private async void Finances_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new FinancesPage());
+        await Navigation.PushAsync(new FinancesPage(_projectName));
     }
 
     private async void DeleteButton_Clicked(object sender, EventArgs e)

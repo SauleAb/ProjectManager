@@ -42,6 +42,9 @@
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDrafts\AddDraft.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectFinances\AddExpense.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectOrders\AddOrder.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
