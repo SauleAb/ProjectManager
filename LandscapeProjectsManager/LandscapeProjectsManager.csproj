@@ -81,7 +81,10 @@
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\AddProjectPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\AddDocument.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Documents\AddDocument.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Drafts\AddDraft.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\AddPhoto.xaml">
@@ -93,10 +96,10 @@
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\BeforePhotosPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\DocumentsPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Documents\DocumentsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\DraftsPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Drafts\DraftsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\FinancesPage.xaml">

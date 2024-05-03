@@ -1,11 +1,12 @@
 using augalinga.Data.Access;
+using LandscapeProjectsManager.MVVM.ViewModels;
 
 namespace LandscapeProjectsManager.MVVM.Views.Contacts;
 
 public partial class AddContact : ContentPage
 {
     public DataContext DataContext { get; set; } = new DataContext();
-
+    private ContactsViewModel _contactsViewModel;
 
     public AddContact()
 	{
@@ -44,7 +45,7 @@ public partial class AddContact : ContentPage
 
             await DataContext.Contacts.AddAsync(newContact);
             await DataContext.SaveChangesAsync();
-
+            _contactsViewModel.AddContactToCollection(newContact);
             await Shell.Current.Navigation.PopAsync();
         }
         else

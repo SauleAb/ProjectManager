@@ -13,9 +13,11 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
 {
     public class ContactsViewModel : INotifyPropertyChanged
     {
+        string _category;
         public ContactsViewModel(string category)
         {
-            LoadContacts(category);
+            _category = category;
+            LoadContacts(_category);
         }
 
         private ObservableCollection<Contact> _contacts;
@@ -27,6 +29,12 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
                 _contacts = value;
                 OnPropertyChanged(nameof(Contacts));
             }
+        }
+
+        public void AddContactToCollection(Contact contact)
+        {
+            Contacts.Add(contact);
+            LoadContacts(_category);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -42,6 +50,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
                 dbContext.Contacts.Remove(contact);
                 dbContext.SaveChanges();
             }
+            LoadContacts(_category);
         }
 
         private void LoadContacts(string category)

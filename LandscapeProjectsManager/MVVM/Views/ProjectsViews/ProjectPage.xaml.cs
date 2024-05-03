@@ -1,6 +1,8 @@
 using augalinga.Data.Entities;
 using LandscapeProjectsManager.MVVM.ViewModels;
 using LandscapeProjectsManager.MVVM.Views.Projects;
+using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documents;
+using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
 
 namespace LandscapeProjectsManager.MVVM.Views;
 
@@ -38,7 +40,7 @@ public partial class ProjectPage : ContentPage
 
     private async void Drafts_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new DraftsPage());
+        await Navigation.PushAsync(new DraftsPage(_projectName));
     }
 
     private async void Finances_Clicked(object sender, EventArgs e)

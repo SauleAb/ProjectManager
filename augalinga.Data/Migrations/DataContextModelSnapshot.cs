@@ -76,6 +76,27 @@ namespace augalinga.Data.Migrations
                     b.ToTable("Documents");
                 });
 
+            modelBuilder.Entity("augalinga.Data.Entities.Draft", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Link")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Project")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Drafts");
+                });
+
             modelBuilder.Entity("augalinga.Data.Entities.Meeting", b =>
                 {
                     b.Property<int>("Id")
