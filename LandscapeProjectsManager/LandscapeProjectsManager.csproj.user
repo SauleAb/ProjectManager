@@ -33,37 +33,40 @@
     <MauiXaml Update="MVVM\Views\ProjectsViews\AddProjectPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Documents\AddDocument.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectContacts\AddProjectContact.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Drafts\AddDraft.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDocuments\AddDocument.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\AddPhoto.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDrafts\AddDraft.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\AfterPhotosPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\AddPhoto.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\BeforePhotosPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\AfterPhotosPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Documents\DocumentsPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\BeforePhotosPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Drafts\DraftsPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDocuments\DocumentsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\FinancesPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDrafts\DraftsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\OrdersPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectFinances\FinancesPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\Photos\PhotosPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectOrders\OrdersPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectContactsPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\PhotosPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectContacts\ProjectContactsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectPage.xaml">

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectContacts.ProjectContactsPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+             Shell.NavBarIsVisible="false"
+             Title="ProjectContactsPage">
+    <ContentPage.Resources>
+        <Style TargetType="syncfusion:DataGridCell">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="TextColor" Value="#212121"/>
+            <Setter Property="FontAttributes" Value="Italic"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+        <Style TargetType="syncfusion:DataGridHeaderCell">
+            <Setter Property="Background" Value="#EFE9DC"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontFamily" Value="AppFont"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+    </ContentPage.Resources>
+    <Grid>
+        <Image Source="projects_background.png" Aspect="AspectFill"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="70"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+            <Label x:Name="ContactsLabel" Text="Contacts" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1"/>
+            <syncfusion:SfDataGrid x:Name="dataGrid" AutoGenerateColumnsMode="None" ItemsSource="{Binding Contacts}" SelectionMode="Single" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Margin="0,30,0,0"  MinimumWidthRequest="800">
+                <syncfusion:SfDataGrid.Columns>
+                    <syncfusion:DataGridTextColumn HeaderText="Name" MappingName="Name" Width="200"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Number" MappingName="Number" Width="200"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Address" MappingName="Address" Width="200"/>
+                    <syncfusion:DataGridTextColumn HeaderText="Notes" MappingName="Notes" Width="250"/>
+                </syncfusion:SfDataGrid.Columns>
+            </syncfusion:SfDataGrid>
+            <ImageButton Source="delete.png" Clicked="DeleteButton_Clicked" Grid.Column="2" Grid.Row="2" Margin="10" HeightRequest="50" WidthRequest="50" Background="Transparent" />
+        </Grid>
+    </Grid>
+</ContentPage>

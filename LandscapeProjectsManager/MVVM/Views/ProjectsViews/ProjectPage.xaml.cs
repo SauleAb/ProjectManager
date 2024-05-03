@@ -3,6 +3,7 @@ using LandscapeProjectsManager.MVVM.ViewModels;
 using LandscapeProjectsManager.MVVM.Views.Projects;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documents;
 using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
+using LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.ProjectContacts;
 
 namespace LandscapeProjectsManager.MVVM.Views;
 
@@ -20,7 +21,7 @@ public partial class ProjectPage : ContentPage
 
     private async void Contacts_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new ProjectContactsPage());
+        await Navigation.PushAsync(new ProjectContactsPage(_projectName));
     }
 
     private async void Photos_Clicked(object sender, EventArgs e)
