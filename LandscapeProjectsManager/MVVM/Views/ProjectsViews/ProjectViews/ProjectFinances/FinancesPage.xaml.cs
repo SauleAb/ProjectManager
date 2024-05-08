@@ -21,9 +21,9 @@ public partial class FinancesPage : ContentPage
 
     public void UpdateLabels()
     {
-        IncomeLabel.Text = $"{_expensesViewModel.Income.ToString()}€";
-        OutcomeLabel.Text = $"{_expensesViewModel.Outcome.ToString()}€";
-        TotalLabel.Text = $"{_expensesViewModel.Total.ToString()}€";
+        IncomeLabel.Text = $"{_expensesViewModel.Income}€";
+        OutcomeLabel.Text = $"{_expensesViewModel.Outcome}€";
+        TotalLabel.Text = $"{_expensesViewModel.Total}€";
     }
 
     private async void AddExpense_Clicked(object sender, EventArgs e)
@@ -43,6 +43,6 @@ public partial class FinancesPage : ContentPage
     public void UpdateDataGrid()
     {
         financesDataGrid.ItemsSource = null;
-        financesDataGrid.ItemsSource = _expensesViewModel.Expenses;
+        financesDataGrid.ItemsSource = _expensesViewModel.Expenses.Take(5).ToList();
     }
 }

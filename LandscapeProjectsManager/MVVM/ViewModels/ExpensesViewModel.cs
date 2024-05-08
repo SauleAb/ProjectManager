@@ -112,7 +112,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
         {
             using (var context = new DataContext())
             {
-                var expenses = context.Expenses.Where(expense => expense.Project == projectName).ToList();
+                var expenses = context.Expenses.Where(expense => expense.Project == projectName).OrderByDescending(expense => expense.Date).ToList();
 
                 Expenses = new ObservableCollection<Expense>(expenses);
             }
