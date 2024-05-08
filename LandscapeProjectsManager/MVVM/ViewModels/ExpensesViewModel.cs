@@ -19,6 +19,39 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
             LoadExpenses(_projectName);
         }
 
+        private decimal _income;
+        public decimal Income
+        {
+            get => _income;
+            set
+            {
+                _income = value;
+                OnPropertyChanged(nameof(Income));
+            }
+        }
+        private decimal _outcome;
+        public decimal Outcome
+        {
+            get => _outcome;
+            set
+            {
+                _outcome = value;
+                OnPropertyChanged(nameof(Outcome));
+            }
+        }
+        private decimal _total;
+        public decimal Total
+        {
+            get => _total;
+            set
+            {
+                _total = value;
+                OnPropertyChanged(nameof(Total));
+            }
+        }
+
+        
+
         public decimal GetIncome()
         {
             var incomeExpenses = Expenses.Where(expense => expense.Type == "+");
@@ -83,6 +116,10 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
 
                 Expenses = new ObservableCollection<Expense>(expenses);
             }
+
+            Income = GetIncome();
+            Outcome = GetOutcome();
+            Total = GetTotal();
         }
 
         public void RemoveExpense(int expenseId)

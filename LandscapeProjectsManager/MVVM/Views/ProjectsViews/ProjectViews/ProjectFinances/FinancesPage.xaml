@@ -24,10 +24,10 @@
         <Image Source="projects_background.png" Aspect="AspectFill"/>
         <Grid RowSpacing="10">
             <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="70"></ColumnDefinition>
