@@ -52,7 +52,7 @@ public partial class AddExpense : ContentPage
 
             ((FinancesPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateLabels();
             ((FinancesPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateDataGrid();
-
+            await DisplayAlert("Success!", "The transaction has been added successfully!", "OK");
             await Shell.Current.Navigation.PopAsync();
         }
         else

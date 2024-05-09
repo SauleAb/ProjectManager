@@ -32,17 +32,21 @@ public partial class FinancesPage : ContentPage
         await Navigation.PushModalAsync(modalPage);
     }
 
-    private void DeleteButton_Clicked(object sender, EventArgs e)
+    private async void DeleteButton_Clicked(object sender, EventArgs e)
     {
         var selectedExpense = financesDataGrid.SelectedRow as Expense;
-        _expensesViewModel.RemoveExpense(selectedExpense.Id); // remove from database and local
-        UpdateLabels();
-        UpdateDataGrid();
+        bool answer = await DisplayAlert("Alert", "Are you sure you want to delete this transaction?", "Yes", "No");
+        if (answer)
+        {
+            _expensesViewModel.RemoveExpense(selectedExpense.Id); // remove from database and local
+            UpdateDataGrid();
+            UpdateLabels();
+        }
     }
 
     public void UpdateDataGrid()
     {
         financesDataGrid.ItemsSource = null;
-        financesDataGrid.ItemsSource = _expensesViewModel.Expenses.Take(5).ToList();
+        financesDataGrid.ItemsSource = _expensesViewModel.Expenses; //.Take(5).ToList()
     }
 }

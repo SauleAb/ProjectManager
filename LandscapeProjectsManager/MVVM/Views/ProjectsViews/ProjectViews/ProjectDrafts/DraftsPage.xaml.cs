@@ -22,6 +22,7 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts
             _draftsViewModel = new DraftsViewModel(_projectName);
             BindingContext = _draftsViewModel;
             DraftsLabel.Text = $"{_projectName} Drafts";
+            UpdateDataGrid();
         }
 
         private async void AddDraft_Clicked(object sender, EventArgs e)
@@ -33,8 +34,14 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts
         private async void DeleteButton_Clicked(object sender, EventArgs e)
         {
             var selectedDraft = draftsDataGrid.SelectedRow as Draft;
-            _draftsViewModel.RemoveDraft(selectedDraft.Link); // remove from database and local
-            await Models.S3Bucket.DeleteObject(s3Client, bucket, selectedDraft.Link); // remove from bucket
+            string link = selectedDraft.Link;
+            bool answer = await DisplayAlert("Alert", $"Are you sure you want to delete {link}?", "Yes", "No");
+            if (answer)
+            {
+                _draftsViewModel.RemoveDraft(link); // remove from database and local
+                await Models.S3Bucket.DeleteObject(s3Client, bucket, link); // remove from bucket
+                UpdateDataGrid();
+            }
         }
 
         private async void draftsDataGrid_CellDoubleTapped(object sender, DataGridCellDoubleTappedEventArgs e)
@@ -42,6 +49,11 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts
             var obj = e.RowData as Draft;
             string link = obj.Link;
             await Launcher.OpenAsync(new Uri(link));
+        }
+        public void UpdateDataGrid()
+        {
+            draftsDataGrid.ItemsSource = null;
+            draftsDataGrid.ItemsSource = _draftsViewModel.Drafts;
         }
     }
 }

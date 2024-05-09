@@ -23,7 +23,7 @@
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                    <Button x:Name="PhotoSelect" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black" Text="Select Document" SemanticProperties.Hint="Select Document" Clicked="PhotoSelect_Clicked" HorizontalOptions="Center"/>
+                    <Button x:Name="PhotoSelect" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black" Text="Select photo(s)" SemanticProperties.Hint="Select Document" Clicked="PhotoSelect_Clicked" HorizontalOptions="Center"/>
                     <Label x:Name="outputText" Padding="10"/>
                     <Button Text="Add" Clicked="AddPhotoButton_Clicked" WidthRequest="150" Margin="20" Background="Transparent" TextColor="Black" BorderColor="Black"/>
                 </StackLayout>

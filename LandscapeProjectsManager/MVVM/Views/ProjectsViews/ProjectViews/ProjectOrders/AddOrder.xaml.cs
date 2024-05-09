@@ -52,11 +52,13 @@ public partial class AddOrder : ContentPage
             await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
             await DataContext.SaveChangesAsync();
             _ordersViewModel.AddDraftToCollection(newOrder);
+            ((OrdersPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateDataGrid();
+            await DisplayAlert("Success!", "The order(s) has been added successfully!", "OK");
             await Shell.Current.Navigation.PopAsync();
         }
         else
         {
-            await DisplayAlert("Alert", "Please enter fill in required fields", "OK");
+            await DisplayAlert("Alert", "Please first upload the files you want to add", "OK");
         }
     }
 }

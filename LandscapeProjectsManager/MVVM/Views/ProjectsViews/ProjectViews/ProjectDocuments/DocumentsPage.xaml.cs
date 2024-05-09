@@ -23,7 +23,8 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
             _documentsViewModel = new DocumentsViewModel(_projectName);
             BindingContext = _documentsViewModel;
             DocumentsLabel.Text = _projectName + " Documents";
-    	}
+            UpdateDataGrid();
+        }
 
         private async void AddDocument_Clicked(object sender, EventArgs e)
         {
@@ -35,16 +36,26 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
         private async void DeleteButton_Clicked(object sender, EventArgs e)
         {
             var selectedDocument = documentsDataGrid.SelectedRow as Document;
+            string link = selectedDocument.Link;
+            bool answer = await DisplayAlert("Alert", $"Are you sure you want to delete {link}?", "Yes", "No");
+            if (answer)
+            {
+                _documentsViewModel.RemoveDocument(link); // remove from database and local
+                await Models.S3Bucket.DeleteObject(s3Client, bucket, link); // remove from bucket
+                UpdateDataGrid();
+            }
+    }
 
-            _documentsViewModel.RemoveDocument(selectedDocument.Link); // remove from database and local
-
-            await Models.S3Bucket.DeleteObject(s3Client, bucket, selectedDocument.Link); // remove from bucket
-        }
-
-        private async void documentsDataGrid_CellDoubleTapped(object sender, Syncfusion.Maui.DataGrid.DataGridCellDoubleTappedEventArgs e)
+    private async void documentsDataGrid_CellDoubleTapped(object sender, Syncfusion.Maui.DataGrid.DataGridCellDoubleTappedEventArgs e)
         {
             var obj = e.RowData as Document;
             string link = obj.Link;
             await Launcher.OpenAsync(new Uri(link));
         }
-    }
+
+        public void UpdateDataGrid()
+        {
+            documentsDataGrid.ItemsSource = null;
+            documentsDataGrid.ItemsSource = _documentsViewModel.Documents;
+        }
+}

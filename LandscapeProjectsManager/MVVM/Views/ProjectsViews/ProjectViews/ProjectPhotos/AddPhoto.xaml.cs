@@ -85,11 +85,12 @@ public partial class AddPhoto : ContentPage
                 await DataContext.SaveChangesAsync();
                 await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
             }
+            await DisplayAlert("Success!", "The photo(s) has been added successfully!", "OK");
             await Shell.Current.Navigation.PopAsync();
         }
         else
         {
-            await DisplayAlert("Alert", "Please enter fill in required fields", "OK");
+            await DisplayAlert("Alert", "Please first upload the files you want to add", "OK");
         }
     }
 

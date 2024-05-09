@@ -51,11 +51,13 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
                 await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
                 await DataContext.SaveChangesAsync();
                 _draftsViewModel.AddDraftToCollection(newDraft);
-                await Shell.Current.Navigation.PopAsync();
+                ((DraftsPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateDataGrid();
+                await DisplayAlert("Success!", "The draft(s) has been added successfully!", "OK");
+            await Shell.Current.Navigation.PopAsync();
             }
             else
             {
-                await DisplayAlert("Alert", "Please enter fill in required fields", "OK");
+                await DisplayAlert("Alert", "Please first upload the files you want to add", "OK");
             }
     }
 }

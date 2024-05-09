@@ -4,7 +4,7 @@
              x:Class="LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documents.AddDocument"
              Title="AddDocument">
     <Grid>
-        <Image Source="projects_background.png" Aspect="AspectFill"/>
+        <Image Source="projects_background.png" Aspect="AspectFill" InputTransparent="True"/>
         <Frame HorizontalOptions="Center" VerticalOptions="Center" BorderColor="Black">
             <Grid VerticalOptions="CenterAndExpand" Padding="20">
                 <Grid.ColumnDefinitions>
