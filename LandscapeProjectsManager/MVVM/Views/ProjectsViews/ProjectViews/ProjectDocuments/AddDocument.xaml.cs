@@ -32,11 +32,7 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
 
         private async void DocumentSelect_Clicked(object sender, EventArgs e)
         {
-            var document = await FilePicker.Default.PickAsync(new PickOptions
-            {
-                PickerTitle = "Pick a document",
-                FileTypes = FilePickerFileType.Pdf
-            });
+            var document = await FilePicker.Default.PickAsync();
             filePath = document.FullPath.ToString();
             fileName = document.FileName.ToString();
             documentsOutputText.Text = filePath;

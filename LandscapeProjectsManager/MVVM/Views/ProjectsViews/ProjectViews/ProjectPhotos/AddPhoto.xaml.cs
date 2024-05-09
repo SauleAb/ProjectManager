@@ -41,7 +41,6 @@ public partial class AddPhoto : ContentPage
             var filePath = photo.FullPath;
             var fileName = photo.FileName;
 
-            // Use filePath and fileName as needed
             outputText.Text += $"{fileName}: {filePath}\n";
         }
     }

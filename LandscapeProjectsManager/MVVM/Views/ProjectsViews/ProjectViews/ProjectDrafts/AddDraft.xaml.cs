@@ -29,11 +29,7 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
 
         private async void DraftSelect_Clicked(object sender, EventArgs e)
         {
-            var draft = await FilePicker.Default.PickAsync(new PickOptions
-            {
-                PickerTitle = "Pick a draft",
-                FileTypes = FilePickerFileType.Pdf
-            });
+            var draft = await FilePicker.Default.PickAsync();
             filePath = draft.FullPath.ToString();
             fileName = draft.FileName.ToString();
             draftsOutputText.Text = filePath;

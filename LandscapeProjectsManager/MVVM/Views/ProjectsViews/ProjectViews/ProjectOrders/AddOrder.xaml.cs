@@ -30,11 +30,7 @@ public partial class AddOrder : ContentPage
 
     private async void OrderSelect_Clicked(object sender, EventArgs e)
     {
-        var order = await FilePicker.Default.PickAsync(new PickOptions
-        {
-            PickerTitle = "Pick an order",
-            FileTypes = FilePickerFileType.Pdf
-        });
+        var order = await FilePicker.Default.PickAsync();
         filePath = order.FullPath.ToString();
         fileName = order.FileName.ToString();
         draftsOutputText.Text = filePath;
