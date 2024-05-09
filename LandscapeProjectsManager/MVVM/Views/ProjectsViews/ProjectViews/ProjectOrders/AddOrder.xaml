@@ -12,11 +12,17 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
-                <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+                    <Button.GestureRecognizers>
+                        <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
+                              PointerExited="PointerGestureRecognizer_PointerExited">
+                        </PointerGestureRecognizer>
+                    </Button.GestureRecognizers>
+                </Button>
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" MaximumWidthRequest="600" Grid.Column="1">
                     <Label Text="Add an order" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" Margin="0,0,0,30"/>
                     <Button x:Name="OrderSelect" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black" Text="Select Order" SemanticProperties.Hint="Select Order" Clicked="OrderSelect_Clicked" HorizontalOptions="Center"/>
-                    <Label x:Name="draftsOutputText" Padding="10"/>
+                    <Label x:Name="ordersOutputText" Padding="10"/>
                     <Button Text="Add" Clicked="AddOrderButton_Clicked" WidthRequest="100" Margin="20" Background="Transparent" TextColor="Black" BorderColor="Black"/>
                 </StackLayout>
                 <StackLayout Grid.Column="2"/>

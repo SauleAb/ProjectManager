@@ -13,6 +13,7 @@ public partial class AddOrder : ContentPage
     string filePath;
     string fileName;
     string _projectName;
+    IEnumerable<FileResult> selectedOrders;
     IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
     public DataContext DataContext { get; set; } = new DataContext();
     private OrdersViewModel _ordersViewModel;
@@ -30,28 +31,35 @@ public partial class AddOrder : ContentPage
 
     private async void OrderSelect_Clicked(object sender, EventArgs e)
     {
-        var order = await FilePicker.Default.PickAsync();
-        filePath = order.FullPath.ToString();
-        fileName = order.FileName.ToString();
-        draftsOutputText.Text = filePath;
+        selectedOrders = await FilePicker.Default.PickMultipleAsync();
+        foreach(var order in selectedOrders)
+        {
+            filePath = order.FullPath.ToString();
+            fileName = order.FileName.ToString();
+            ordersOutputText.Text += $"{fileName}: {filePath}\n";
+        }
     }
 
     private async void AddOrderButton_Clicked(object sender, EventArgs e)
     {
-        string objectKey = _projectName + "/" + folder + fileName;
+        string objectKey;
 
-        if (!string.IsNullOrWhiteSpace(draftsOutputText.Text))
+        if (!string.IsNullOrWhiteSpace(ordersOutputText.Text))
         {
-            var newOrder = new Order
+            foreach(var order in selectedOrders)
             {
-                Project = _projectName,
-                Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
-            };
+                objectKey = _projectName + "/" + folder + order.FileName;
+                var newOrder = new Order
+                {
+                    Project = _projectName,
+                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
+                };
 
-            await DataContext.Orders.AddAsync(newOrder);
-            await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
-            await DataContext.SaveChangesAsync();
-            _ordersViewModel.AddDraftToCollection(newOrder);
+                await DataContext.Orders.AddAsync(newOrder);
+                await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, order.FullPath);
+                await DataContext.SaveChangesAsync();
+                _ordersViewModel.AddOrderToCollection(newOrder);
+            }
             ((OrdersPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateDataGrid();
             await DisplayAlert("Success!", "The order(s) has been added successfully!", "OK");
             await Shell.Current.Navigation.PopAsync();
@@ -60,5 +68,15 @@ public partial class AddOrder : ContentPage
         {
             await DisplayAlert("Alert", "Please first upload the files you want to add", "OK");
         }
+    }
+
+    private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+    }
+
+    private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
     }
 }

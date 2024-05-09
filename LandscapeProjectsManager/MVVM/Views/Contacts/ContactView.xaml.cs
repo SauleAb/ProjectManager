@@ -30,4 +30,13 @@ public partial class ContactView : ContentPage
 
         viewModel.RemoveContact(selectedContact); // remove from database
     }
+    private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+    }
+
+    private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
+    }
 }

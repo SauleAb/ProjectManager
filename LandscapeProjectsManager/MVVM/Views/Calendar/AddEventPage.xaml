@@ -13,8 +13,14 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-            
-                    <Button Text="x" Clicked="BackButton_Clicked" HeightRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" Grid.Column="0" />
+
+                    <Button Text="x" Clicked="BackButton_Clicked" HeightRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" Grid.Column="0">
+                        <Button.GestureRecognizers>
+                            <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
+                              PointerExited="PointerGestureRecognizer_PointerExited">
+                            </PointerGestureRecognizer>
+                        </Button.GestureRecognizers>
+                    </Button>
 
                     <Label Text="Add an event" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" Grid.Column="1" />
                 </Grid>

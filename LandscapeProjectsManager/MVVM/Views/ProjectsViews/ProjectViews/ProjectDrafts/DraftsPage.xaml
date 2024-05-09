@@ -34,7 +34,13 @@
                 <ColumnDefinition Width="70"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <Button Text="+" Clicked="AddDraft_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+            <Button Text="+" Clicked="AddDraft_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+                <Button.GestureRecognizers>
+                    <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
+                              PointerExited="PointerGestureRecognizer_PointerExited">
+                    </PointerGestureRecognizer>
+                </Button.GestureRecognizers>
+            </Button>
             <Label Text="Drafts" x:Name="DraftsLabel" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0"/>
             <syncfusion:SfDataGrid x:Name="draftsDataGrid" CellDoubleTapped="draftsDataGrid_CellDoubleTapped" AutoGenerateColumnsMode="None" ItemsSource="{Binding Drafts}" SelectionMode="Single" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Margin="0,30,0,0"  MinimumWidthRequest="800">
                 <syncfusion:SfDataGrid.Columns>

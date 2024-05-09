@@ -29,12 +29,11 @@ public partial class AddPhoto : ContentPage
         //             { DevicePlatform.WinUI, new[] { ".Jpeg", ".Png", ".Videos" } },
         //             { DevicePlatform.macOS, new[] { ".Jpeg", ".Png", ".Videos" } },
         //         });
-        var photos = await FilePicker.PickMultipleAsync(new PickOptions
+        selectedPhotos = await FilePicker.PickMultipleAsync(new PickOptions
         {
             PickerTitle = "Pick photo(s)",
             FileTypes = FilePickerFileType.Images
         });
-        selectedPhotos = photos;
 
         foreach (var photo in selectedPhotos)
         {
@@ -83,7 +82,7 @@ public partial class AddPhoto : ContentPage
                 };
                 await DataContext.Photos.AddAsync(newPhoto);
                 await DataContext.SaveChangesAsync();
-                await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
+                await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, photo.FullPath);
             }
             await DisplayAlert("Success!", "The photo(s) has been added successfully!", "OK");
             await Shell.Current.Navigation.PopAsync();
@@ -97,5 +96,15 @@ public partial class AddPhoto : ContentPage
     private async void BackButton_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.Navigation.PopAsync();
+    }
+
+    private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+    }
+
+    private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
     }
 }

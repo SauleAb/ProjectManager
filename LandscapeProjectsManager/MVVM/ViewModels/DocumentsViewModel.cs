@@ -54,16 +54,16 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
 
         public void RemoveDocument(string documentLink)
         {
-            //local
             var documentToRemove = Documents.FirstOrDefault(p => p.Link == documentLink);
-            Documents.Remove(documentToRemove);
-
             //database
             using (var dbContext = new DataContext())
             {
                 dbContext.Documents.Remove(documentToRemove);
                 dbContext.SaveChanges();
             }
+            //local
+            Documents.Remove(documentToRemove);
+
 
             LoadDocuments(_projectName);
         }

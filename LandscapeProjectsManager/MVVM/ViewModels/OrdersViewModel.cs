@@ -30,7 +30,7 @@ namespace LandscapeProjectsManager.MVVM.ViewModels
             }
         }
 
-        public void AddDraftToCollection(Order order)
+        public void AddOrderToCollection(Order order)
         {
             Orders.Add(order);
             LoadOrders(_projectName);

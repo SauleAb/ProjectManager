@@ -15,6 +15,7 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
         string filePath;
         string fileName;
         string _projectName;
+        IEnumerable<FileResult> selectedDocuments;
         IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
         DocumentsViewModel _documentsViewModel;
         public DataContext DataContext { get; set; } = new DataContext();
@@ -32,35 +33,51 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
 
         private async void DocumentSelect_Clicked(object sender, EventArgs e)
         {
-            var document = await FilePicker.Default.PickAsync();
-            filePath = document.FullPath.ToString();
-            fileName = document.FileName.ToString();
-            documentsOutputText.Text = filePath;
-        }
+            selectedDocuments = await FilePicker.Default.PickMultipleAsync();
+            foreach (var document in selectedDocuments)
+            {
+                filePath = document.FullPath.ToString();
+                fileName = document.FileName.ToString();
+                documentsOutputText.Text += $"{fileName}: {filePath}\n";
+            }
+    }
 
         private async void AddDocumentButton_Clicked(object sender, EventArgs e)
         {
-            string objectKey = _projectName + "/" + folder + fileName;
+        string objectKey;
 
-            if (!string.IsNullOrWhiteSpace(documentsOutputText.Text))
+        if (!string.IsNullOrWhiteSpace(documentsOutputText.Text))
+        {
+            foreach (var document in selectedDocuments)
             {
+                objectKey = _projectName + "/" + folder + document.FileName;
                 var newDocument = new Document
                 {
                     Project = _projectName,
                     Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
                 };
-
                 await DataContext.Documents.AddAsync(newDocument);
-                _documentsViewModel.AddDocumentToCollection(newDocument);
-                await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, filePath);
+                await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, document.FullPath);
                 await DataContext.SaveChangesAsync();
-                ((DocumentsPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateDataGrid();
-                await DisplayAlert("Success!", "The document(s) has been added successfully!", "OK");
-                await Shell.Current.Navigation.PopAsync();
-            }
-            else
+                _documentsViewModel.AddDocumentToCollection(newDocument);
+            };
+            ((DocumentsPage)Shell.Current.Navigation.NavigationStack.Last()).UpdateDataGrid();
+            await DisplayAlert("Success!", "The document(s) has been added successfully!", "OK");
+            await Shell.Current.Navigation.PopAsync();
+        }
+        else
             {
                 await DisplayAlert("Alert", "Please first upload the files you want to add", "OK");
             }
         }
+    private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
     }
+
+    private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
+    }
+
+}

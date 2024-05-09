@@ -12,7 +12,13 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
-                <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                <Button Text="x" Clicked="BackButton_Clicked" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+                    <Button.GestureRecognizers>
+                        <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
+                              PointerExited="PointerGestureRecognizer_PointerExited">
+                        </PointerGestureRecognizer>
+                    </Button.GestureRecognizers>
+                </Button>
                 <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Background="White" MaximumWidthRequest="600" Grid.Column="1">
                     <Label Text="Add a document" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" Margin="0,0,0,30"/>
                     <Button x:Name="DocumentSelect" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black" Text="Select Document" SemanticProperties.Hint="Select Document" Clicked="DocumentSelect_Clicked" HorizontalOptions="Center"/>

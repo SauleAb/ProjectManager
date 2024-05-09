@@ -55,5 +55,15 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts
             draftsDataGrid.ItemsSource = null;
             draftsDataGrid.ItemsSource = _draftsViewModel.Drafts;
         }
+
+        private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+        {
+            ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+        }
+
+        private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+        {
+            ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
+        }
     }
 }

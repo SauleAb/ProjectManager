@@ -49,4 +49,14 @@ public partial class FinancesPage : ContentPage
         financesDataGrid.ItemsSource = null;
         financesDataGrid.ItemsSource = _expensesViewModel.Expenses; //.Take(5).ToList()
     }
+
+    private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+    }
+
+    private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
+    }
 }

@@ -47,15 +47,25 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
     }
 
     private async void documentsDataGrid_CellDoubleTapped(object sender, Syncfusion.Maui.DataGrid.DataGridCellDoubleTappedEventArgs e)
-        {
-            var obj = e.RowData as Document;
-            string link = obj.Link;
-            await Launcher.OpenAsync(new Uri(link));
-        }
+    {
+        var obj = e.RowData as Document;
+        string link = obj.Link;
+        await Launcher.OpenAsync(new Uri(link));
+    }
 
-        public void UpdateDataGrid()
-        {
-            documentsDataGrid.ItemsSource = null;
-            documentsDataGrid.ItemsSource = _documentsViewModel.Documents;
-        }
+    public void UpdateDataGrid()
+    {
+        documentsDataGrid.ItemsSource = null;
+        documentsDataGrid.ItemsSource = _documentsViewModel.Documents;
+    }
+
+    private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+    }
+
+    private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+    {
+        ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
+    }
 }

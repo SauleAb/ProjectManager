@@ -34,7 +34,13 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="70"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Text="+" Clicked="AddExpense_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+            <Button Text="+" Clicked="AddExpense_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+                <Button.GestureRecognizers>
+                    <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
+                              PointerExited="PointerGestureRecognizer_PointerExited">
+                    </PointerGestureRecognizer>
+                </Button.GestureRecognizers>
+            </Button>
             <Label Text="Finances" x:Name="FinancesLabel" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1"/>
             <Grid VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="1">
                 <Grid.RowDefinitions>

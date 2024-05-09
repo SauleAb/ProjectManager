@@ -19,7 +19,13 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="70" />
                     </Grid.ColumnDefinitions>
-                    <Button Text="+" Clicked="AddProject_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" />
+                    <Button Text="+" Clicked="AddProject_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+                        <Button.GestureRecognizers>
+                            <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
+                                                      PointerExited="PointerGestureRecognizer_PointerExited">
+                            </PointerGestureRecognizer>
+                        </Button.GestureRecognizers>
+                    </Button>
                     <Label Text="Projects" FontFamily="TitleFont" FontSize="60" HorizontalOptions="Center" Grid.Column="1"/>
                     <StackLayout Grid.Column="2"/>
                 </Grid>

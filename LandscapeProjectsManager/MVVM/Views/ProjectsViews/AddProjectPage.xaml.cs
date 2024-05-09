@@ -40,5 +40,15 @@ namespace LandscapeProjectsManager.MVVM.Views.Projects
                 await DisplayAlert("Alert", "Please enter a project name.", "OK");
             }
         }
+
+        private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
+        {
+            ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);
+        }
+
+        private void PointerGestureRecognizer_PointerExited(object sender, PointerEventArgs e)
+        {
+            ((Button)sender).BackgroundColor = Color.FromRgb(255, 255, 255);
+        }
     }
 }
