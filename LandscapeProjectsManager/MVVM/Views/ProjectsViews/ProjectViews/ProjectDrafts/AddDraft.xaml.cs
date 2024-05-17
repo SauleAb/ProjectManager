@@ -51,7 +51,8 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts;
                 var newDraft = new Draft
                 {
                     Project = _projectName,
-                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
+                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}",
+                    Name = draft.FileName
                 };
                 await DataContext.Drafts.AddAsync(newDraft);
                 await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, draft.FullPath);

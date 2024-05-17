@@ -52,7 +52,8 @@ public partial class AddOrder : ContentPage
                 var newOrder = new Order
                 {
                     Project = _projectName,
-                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
+                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}",
+                    Name = order.FileName
                 };
 
                 await DataContext.Orders.AddAsync(newOrder);

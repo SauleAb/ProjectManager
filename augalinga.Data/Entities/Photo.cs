@@ -16,5 +16,6 @@ namespace augalinga.Data.Entities
         public string Category {  get; set; }
         public byte[] Bytes { get; set; }
         public string Link {  get; set; }
+        public string Name {  get; set; }
     }
 }

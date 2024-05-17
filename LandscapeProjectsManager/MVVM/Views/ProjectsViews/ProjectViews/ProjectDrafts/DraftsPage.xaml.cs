@@ -47,8 +47,16 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Drafts
         private async void draftsDataGrid_CellDoubleTapped(object sender, DataGridCellDoubleTappedEventArgs e)
         {
             var obj = e.RowData as Draft;
-            string link = obj.Link;
-            await Launcher.OpenAsync(new Uri(link));
+            string key = $"{_projectName}/drafts/{obj.Name}";
+            try
+            {
+                string localFilePath = await Models.S3Bucket.DownloadObjectAsync(s3Client, bucket, key);
+                await Launcher.OpenAsync(new Uri(localFilePath));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", $"An error occurred while downloading the file: {ex.Message}", "OK");
+            }
         }
         public void UpdateDataGrid()
         {

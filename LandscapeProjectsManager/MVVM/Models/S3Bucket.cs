@@ -117,6 +117,47 @@ namespace LandscapeProjectsManager.MVVM.Models
             }
         }
 
+        public static async Task<string> DownloadObjectAsync(IAmazonS3 s3Client, string bucketName, string keyName)
+        {
+            try
+            {
+                GetObjectRequest request = new GetObjectRequest
+                {
+                    BucketName = bucketName,
+                    Key = keyName
+                };
+
+                using (GetObjectResponse response = await s3Client.GetObjectAsync(request))
+                using (Stream responseStream = response.ResponseStream)
+                {
+                    string localFilePath = Path.Combine(Path.GetTempPath(), keyName);
+
+                    string directoryPath = Path.GetDirectoryName(localFilePath);
+                    if (!Directory.Exists(directoryPath))
+                    {
+                        Directory.CreateDirectory(directoryPath);
+                    }
+
+                    using (FileStream fileStream = new FileStream(localFilePath, FileMode.Create, FileAccess.Write))
+                    {
+                        await responseStream.CopyToAsync(fileStream);
+                    }
+
+                    return localFilePath;
+                }
+            }
+            catch (AmazonS3Exception e)
+            {
+                Console.WriteLine("Error encountered on server. Message:'{0}' when reading object", e.Message);
+                throw;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Unknown encountered on server. Message:'{0}' when reading object", e.Message);
+                throw;
+            }
+        }
+
         public static async Task<bool> GetBucketDocumentsAsync(IAmazonS3 client, string bucketName, ObservableCollection<string> objectLinks)
         {
             try

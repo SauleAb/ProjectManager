@@ -46,8 +46,16 @@ public partial class OrdersPage : ContentPage
     private async void ordersDataGrid_CellDoubleTapped(object sender, Syncfusion.Maui.DataGrid.DataGridCellDoubleTappedEventArgs e)
     {
         var obj = e.RowData as Order;
-        string link = obj.Link;
-        await Launcher.OpenAsync(new Uri(link));
+        string key = $"{_projectName}/orders/{obj.Name}";
+        try
+        {
+            string localFilePath = await Models.S3Bucket.DownloadObjectAsync(s3Client, bucket, key);
+            await Launcher.OpenAsync(new Uri(localFilePath));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"An error occurred while downloading the file: {ex.Message}", "OK");
+        }
     }
 
     public void UpdateDataGrid()

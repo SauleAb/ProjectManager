@@ -54,7 +54,8 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
                 var newDocument = new Document
                 {
                     Project = _projectName,
-                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
+                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}",
+                    Name = document.FileName
                 };
                 await DataContext.Documents.AddAsync(newDocument);
                 await Models.S3Bucket.UploadFileAsync(s3Client, bucket, objectKey, document.FullPath);

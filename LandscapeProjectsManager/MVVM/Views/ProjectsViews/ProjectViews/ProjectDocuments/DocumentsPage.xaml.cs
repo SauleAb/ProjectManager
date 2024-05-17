@@ -49,8 +49,16 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Documen
     private async void documentsDataGrid_CellDoubleTapped(object sender, Syncfusion.Maui.DataGrid.DataGridCellDoubleTappedEventArgs e)
     {
         var obj = e.RowData as Document;
-        string link = obj.Link;
-        await Launcher.OpenAsync(new Uri(link));
+        string key = $"{_projectName}/documents/{obj.Name}";
+        try
+        {
+            string localFilePath = await Models.S3Bucket.DownloadObjectAsync(s3Client, bucket, key);
+            await Launcher.OpenAsync(new Uri(localFilePath));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"An error occurred while downloading the file: {ex.Message}", "OK");
+        }
     }
 
     public void UpdateDataGrid()

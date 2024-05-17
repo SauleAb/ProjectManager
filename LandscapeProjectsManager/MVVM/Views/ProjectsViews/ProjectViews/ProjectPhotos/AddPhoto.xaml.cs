@@ -78,7 +78,8 @@ public partial class AddPhoto : ContentPage
                     Category = PhotoCategoryPicker.SelectedItem.ToString(),
                     Title = photo.FileName,
                     Bytes = bytes,
-                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}"
+                    Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}",
+                    Name = photo.FileName
                 };
                 await DataContext.Photos.AddAsync(newPhoto);
                 await DataContext.SaveChangesAsync();
