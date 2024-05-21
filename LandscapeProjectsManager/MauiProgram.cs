@@ -1,4 +1,5 @@
-﻿using Syncfusion.Maui.Core.Hosting;
+﻿using Mopups.Hosting;
+using Syncfusion.Maui.Core.Hosting;
 
 namespace LandscapeProjectsManager
 {
@@ -16,8 +17,8 @@ namespace LandscapeProjectsManager
                     fonts.AddFont("Pompiere-Regular.ttf", "AppFont");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
-
+                }   )
+                .ConfigureMopups();
             return builder.Build();
         }
     }

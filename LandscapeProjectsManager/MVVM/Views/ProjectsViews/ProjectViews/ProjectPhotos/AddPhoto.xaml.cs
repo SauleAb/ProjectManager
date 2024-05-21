@@ -10,7 +10,7 @@ namespace LandscapeProjectsManager.MVVM.Views.ProjectsViews.ProjectViews.Photos;
 public partial class AddPhoto : ContentPage
 {
     string bucket = "augalinga-app";
-    string folder = "photos/";
+    string folder = "photos";
     string filePath;
     string _projectName;
     IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
@@ -68,14 +68,15 @@ public partial class AddPhoto : ContentPage
     {
         if (!string.IsNullOrWhiteSpace(outputText.Text))
         {
+            string _category = PhotoCategoryPicker.SelectedItem.ToString().ToLower();
             foreach (var photo in selectedPhotos)
             {
                 var bytes = await ReadFileAsBytes(photo.FullPath);
-                string objectKey = _projectName + "/" + folder + photo.FileName;
+                string objectKey = $"{_projectName}/{folder}/{_category}/{photo.FileName}";
                 var newPhoto = new Photo
                 {
                     Project = _projectName,
-                    Category = PhotoCategoryPicker.SelectedItem.ToString(),
+                    Category = _category,
                     Title = photo.FileName,
                     Bytes = bytes,
                     Link = $"https://{bucket}.s3.amazonaws.com/{objectKey}",

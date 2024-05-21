@@ -13,10 +13,10 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
-                <Button Text="+" Clicked="AddPhoto_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" >
+                <Button Text="+" Clicked="AddPhoto_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium" BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase" >
                     <Button.GestureRecognizers>
                         <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
-                                                  PointerExited="PointerGestureRecognizer_PointerExited">
+                                                      PointerExited="PointerGestureRecognizer_PointerExited">
                         </PointerGestureRecognizer>
                     </Button.GestureRecognizers>
                 </Button>
@@ -33,33 +33,33 @@
                 </Grid.ColumnDefinitions>
                 <Frame BorderColor="Black" Grid.Column="0" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10">
                     <Button Text="Before"
-                            Grid.Column="0"
-                            Grid.Row="0"
-                            FontSize="40"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            WidthRequest="300"
-                            HeightRequest="200"
-                            FontFamily="TitleFont"
-                            BackgroundColor="Transparent"
-                            BorderWidth="0"
-                            TextColor="Black"
-                            Clicked="Before_Clicked"/>
+                                Grid.Column="0"
+                                Grid.Row="0"
+                                FontSize="40"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                WidthRequest="300"
+                                HeightRequest="200"
+                                FontFamily="TitleFont"
+                                BackgroundColor="Transparent"
+                                BorderWidth="0"
+                                TextColor="Black"
+                                Clicked="Before_Clicked"/>
                 </Frame>
                 <Frame BorderColor="Black" Grid.Column="1" CornerRadius="10" BackgroundColor="#EFE9DC" Margin="10">
                     <Button Text="After"
-                            Grid.Column="1"
-                            Grid.Row="0"
-                            FontSize="40"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            WidthRequest="300"
-                            HeightRequest="200"
-                            FontFamily="TitleFont"
-                            BackgroundColor="Transparent"
-                            BorderWidth="0"
-                            TextColor="Black"
-                            Clicked="After_Clicked"/>
+                                Grid.Column="1"
+                                Grid.Row="0"
+                                FontSize="40"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                WidthRequest="300"
+                                HeightRequest="200"
+                                FontFamily="TitleFont"
+                                BackgroundColor="Transparent"
+                                BorderWidth="0"
+                                TextColor="Black"
+                                Clicked="After_Clicked"/>
                 </Frame>
             </Grid>
         </VerticalStackLayout>

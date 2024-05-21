@@ -27,7 +27,7 @@ public partial class ProjectsPage : ContentPage
         var modalPage = new AddProjectPage(viewModel);
         await Navigation.PushModalAsync(modalPage);
     }
-
+    
     private void PointerGestureRecognizer_PointerEntered(object sender, PointerEventArgs e)
     {
         ((Button)sender).BackgroundColor = Color.FromRgb(240, 240, 240);

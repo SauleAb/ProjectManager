@@ -52,6 +52,7 @@
 		<PackageReference Include="AWSSDK.S3" Version="3.7.307.25" />
 		<PackageReference Include="CommunityToolkit.Maui.Markup" Version="4.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Mopups" Version="1.3.1" />
 		<PackageReference Include="Syncfusion.Maui.Buttons" Version="24.2.9" />
 		<PackageReference Include="Syncfusion.Maui.DataGrid" Version="24.2.9" />
 		<PackageReference Include="Syncfusion.Maui.Picker" Version="24.2.8" />
@@ -66,6 +67,9 @@
 	  <Compile Update="MVVM\Views\ProjectsViews\ProjectPage.xaml.cs">
 	    <DependentUpon>ProjectPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\PhotosDisplayPage.xaml.cs">
+	    <DependentUpon>PhotosDisplayPage.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -76,6 +80,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\Contacts\ContactView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\LoadingPopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\AddProjectPage.xaml">
@@ -99,10 +106,7 @@
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\AddPhoto.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\AfterPhotosPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\BeforePhotosPage.xaml">
+	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\PhotosDisplayPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDocuments\DocumentsPage.xaml">

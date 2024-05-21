@@ -30,6 +30,9 @@
     <MauiXaml Update="MVVM\Views\Contacts\ContactView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\LoadingPopup.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\Views\ProjectsViews\AddProjectPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -51,10 +54,7 @@
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\AddPhoto.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\AfterPhotosPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\BeforePhotosPage.xaml">
+    <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectPhotos\PhotosDisplayPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="MVVM\Views\ProjectsViews\ProjectViews\ProjectDocuments\DocumentsPage.xaml">
