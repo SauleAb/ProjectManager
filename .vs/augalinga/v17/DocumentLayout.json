@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photosdisplaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photosdisplaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photosdisplaypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photosdisplaypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\landscapeprojectsmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\landscapeprojectsmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\beforephotospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\beforephotospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\addphoto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\addphoto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\beforephotospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\beforephotospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\viewmodels\\photosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\viewmodels\\photosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectphotos\\photospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\projectsviews\\projectviews\\projectorders\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\mvvm\\views\\loadingpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\mvvm\\views\\loadingpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\landscapeprojectsmanager\\landscapeprojectsmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A3C9A35C-AF91-460D-8A0D-A284730B9EF3}|LandscapeProjectsManager\\LandscapeProjectsManager.csproj|solutionrelative:landscapeprojectsmanager\\landscapeprojectsmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C43D1591-4812-47E9-A26E-128F168F372D}|augalinga.Data\\augalinga.Data.csproj|c:\\users\\thinkpad\\desktop\\augalinga\\augalinga.data\\entities\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -334,7 +334,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -342,28 +342,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddPhoto.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
-              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAIwAwAAAAbAAAA",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MauiProgram.cs",
+              "RelativeToolTip": "LandscapeProjectsManager\\MauiProgram.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvwwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T07:21:49.29Z",
+              "WhenOpened": "2024-03-22T12:22:52.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwEMAAABEAAAA",
+              "DocumentIndex": 6,
+              "Title": "PhotosViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
+              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T19:13:24.948Z",
+              "WhenOpened": "2024-05-02T08:49:26.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhotosDisplayPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml.cs",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml.cs",
+              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAJ0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T08:17:20.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhotosDisplayPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml",
+              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosDisplayPage.xaml",
+              "ViewState": "AQIAABcAAAAAAAAAAADgvyUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-03T08:16:57.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
+              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T07:17:51.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhotosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
+              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T15:11:29.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LandscapeProjectsManager.csproj",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
+              "RelativeToolTip": "LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-22T13:05:13.002Z",
               "EditorCaption": ""
             },
             {
@@ -381,72 +446,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "LandscapeProjectsManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:13:24.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPhoto.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
+              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
+              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
+              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\AddPhoto.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T07:21:49.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MauiProgram.cs",
-              "RelativeToolTip": "LandscapeProjectsManager\\MauiProgram.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvwwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T12:22:52.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PhotosViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
-              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\ViewModels\\PhotosViewModel.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T08:49:26.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BeforePhotosPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml.cs",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml.cs",
-              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T08:17:20.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BeforePhotosPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml",
-              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\BeforePhotosPage.xaml",
-              "ViewState": "AQIAABAAAAAAAAAAAADwvwwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-03T08:16:57.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PhotosPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
-              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T07:17:51.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "OrdersPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectOrders\\OrdersPage.xaml.cs",
               "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectOrders\\OrdersPage.xaml.cs",
@@ -459,20 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PhotosPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
-              "RelativeToolTip": "LandscapeProjectsManager\\MVVM\\Views\\ProjectsViews\\ProjectViews\\ProjectPhotos\\PhotosPage.xaml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T15:11:29.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoadingPopup.xaml",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\LoadingPopup.xaml",
               "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\LoadingPopup.xaml",
@@ -485,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoadingPopup.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\MVVM\\Views\\LoadingPopup.xaml.cs",
               "RelativeDocumentMoniker": "LandscapeProjectsManager\\MVVM\\Views\\LoadingPopup.xaml.cs",
@@ -494,19 +507,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T13:24:41.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LandscapeProjectsManager.csproj",
-              "DocumentMoniker": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
-              "RelativeDocumentMoniker": "LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
-              "ToolTip": "C:\\Users\\ThinkPad\\Desktop\\augalinga\\LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
-              "RelativeToolTip": "LandscapeProjectsManager\\LandscapeProjectsManager.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-22T13:05:13.002Z",
               "EditorCaption": ""
             },
             {

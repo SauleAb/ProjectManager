@@ -12,10 +12,11 @@ public partial class PhotosDisplayPage : ContentPage
     string _projectName;
     PhotosViewModel _photosViewModel;
     private Photo _currentPhoto;
+    int _currentPhotoIndex;
     string _category;
     string bucket = "augalinga-app";
     IAmazonS3 s3Client = new AmazonS3Client(RegionEndpoint.EUNorth1);
-    public BeforePhotosPage(string projectName, string category)
+    public PhotosDisplayPage(string projectName, string category)
     {
         InitializeComponent();
         _projectName = projectName;
@@ -58,12 +59,22 @@ public partial class PhotosDisplayPage : ContentPage
     private async Task OnPhotoTapped(Photo photo)
     {
         _currentPhoto = photo;
-        string key = $"{_projectName}/photos/{_category}/{photo.Name}";
-        string imageUrl = GetPreSignedURL(key);
-        PopupImage.Source = ImageSource.FromUri(new Uri(imageUrl));
-        PhotoPopup.Opacity = 0;
-        PhotoPopup.IsVisible = true;
-        await PhotoPopup.FadeTo(1, 250);
+        _currentPhotoIndex = _photosViewModel.Photos.IndexOf(photo);
+        await ShowPhoto(_currentPhotoIndex);
+    }
+
+    private async Task ShowPhoto(int index)
+    {
+        if (index >= 0 && index < _photosViewModel.Photos.Count)
+        {
+            _currentPhoto = _photosViewModel.Photos[index];
+            string key = $"{_projectName}/photos/{_category}/{_currentPhoto.Name}";
+            string imageUrl = GetPreSignedURL(key);
+            PopupImage.Source = ImageSource.FromUri(new Uri(imageUrl));
+            PhotoPopup.Opacity = 0;
+            PhotoPopup.IsVisible = true;
+            await PhotoPopup.FadeTo(1, 250);
+        }
     }
 
     private async void CloseButton_Clicked(object sender, EventArgs e)
@@ -127,5 +138,26 @@ public partial class PhotosDisplayPage : ContentPage
         PhotoPopup.IsVisible = false;
         PopupImage.Source = null;
         _currentPhoto = null;
+    }
+
+    private async void NextButton_Clicked(object sender, EventArgs e)
+    {
+        _currentPhotoIndex++;
+        if (_currentPhotoIndex >= _photosViewModel.Photos.Count)
+        {
+            _currentPhotoIndex = 0;
+        }
+        await ShowPhoto(_currentPhotoIndex);
+    }
+
+    private async void PreviousButton_Clicked(object sender, EventArgs e)
+    {
+        _currentPhotoIndex--;
+        if (_currentPhotoIndex < 0)
+        {
+            _currentPhotoIndex = _photosViewModel.Photos.Count - 1;
+        }
+        await ShowPhoto(_currentPhotoIndex);
+
     }
 }

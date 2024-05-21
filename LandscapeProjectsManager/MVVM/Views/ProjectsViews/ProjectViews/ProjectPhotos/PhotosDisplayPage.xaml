@@ -37,8 +37,10 @@
                     <ColumnDefinition Width="70"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
             <Button Text="X" TextColor="Black" Grid.Column="0" Grid.Row="0" BackgroundColor="White" Clicked="CloseButton_Clicked" VerticalOptions="Center" HorizontalOptions="Center"/>
-            <Image x:Name="PopupImage" Grid.Row="1" Grid.Column="1" Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-                <ImageButton Source="delete.png" BackgroundColor="White" CornerRadius="10" Clicked="DeleteButton_Clicked" Grid.Column="2" Grid.Row="2" Margin="10" HeightRequest="50" WidthRequest="50"/>
+                <Button Text="&lt;" TextColor="Black" x:Name="PreviousButton" Clicked="PreviousButton_Clicked" Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="White"/>
+                <Image x:Name="PopupImage" Grid.Row="1" Grid.Column="1" Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Button Text=">" TextColor="Black" x:Name="NextButton" Clicked="NextButton_Clicked" Grid.Column="2" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="White"/>
+                <ImageButton Source="delete.png"  BackgroundColor="White" CornerRadius="10" Clicked="DeleteButton_Clicked" Grid.Column="2" Grid.Row="2" Margin="10" HeightRequest="50" WidthRequest="50"/>
             </Grid>
         </ContentView>
     </Grid>
