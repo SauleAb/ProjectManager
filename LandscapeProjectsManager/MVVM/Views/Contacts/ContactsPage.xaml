@@ -18,7 +18,7 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="70" />
                 </Grid.ColumnDefinitions>
-                <Button Text="+" Clicked="AddContact_Clicked" Margin="10" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+                <Button x:Name="AddButton" Style="{StaticResource AddButton}" Clicked="AddContact_Clicked" Grid.Column="0">
                     <Button.GestureRecognizers>
                         <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
                               PointerExited="PointerGestureRecognizer_PointerExited">

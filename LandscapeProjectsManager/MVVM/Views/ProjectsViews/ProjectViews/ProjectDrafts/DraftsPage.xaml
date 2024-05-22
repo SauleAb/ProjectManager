@@ -34,7 +34,7 @@
                 <ColumnDefinition Width="70"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <Button Text="+" Clicked="AddDraft_Clicked" Margin="10" Grid.Row="0" Grid.Column="0" HeightRequest="10" WidthRequest="10" TextColor="Black" CornerRadius="50" BorderColor="Black" FontSize="Medium"  BackgroundColor="White" VerticalOptions="Start" HorizontalOptions="Start" TextTransform="Uppercase">
+            <Button x:Name="AddButton" Style="{StaticResource AddButton}" Clicked="AddDraft_Clicked" Grid.Row="0" Grid.Column="0">
                 <Button.GestureRecognizers>
                     <PointerGestureRecognizer PointerEntered="PointerGestureRecognizer_PointerEntered"
                               PointerExited="PointerGestureRecognizer_PointerExited">
