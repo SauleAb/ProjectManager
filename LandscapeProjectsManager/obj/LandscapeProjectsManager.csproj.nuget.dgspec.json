@@ -53,27 +53,31 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
+            },
+            "Syncfusion.Maui.Scheduler": {
+              "target": "Package",
+              "version": "[25.2.6, )"
             }
           },
           "imports": [
@@ -92,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -177,7 +181,7 @@
           "dependencies": {
             "AWSSDK.S3": {
               "target": "Package",
-              "version": "[3.7.307.25, )"
+              "version": "[3.7.308.5, )"
             },
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
@@ -189,16 +193,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             },
             "Mopups": {
@@ -207,7 +211,7 @@
             },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
-              "version": "[24.2.9, )"
+              "version": "[25.2.6, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -219,7 +223,7 @@
             },
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
-              "version": "[24.2.8, )"
+              "version": "[25.2.6, )"
             }
           },
           "imports": [
@@ -241,14 +245,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "AWSSDK.S3": {
               "target": "Package",
-              "version": "[3.7.307.25, )"
+              "version": "[3.7.308.5, )"
             },
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
@@ -260,16 +264,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             },
             "Mopups": {
@@ -278,7 +282,7 @@
             },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
-              "version": "[24.2.9, )"
+              "version": "[25.2.6, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -290,7 +294,7 @@
             },
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
-              "version": "[24.2.8, )"
+              "version": "[25.2.6, )"
             }
           },
           "imports": [
@@ -312,14 +316,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "AWSSDK.S3": {
               "target": "Package",
-              "version": "[3.7.307.25, )"
+              "version": "[3.7.308.5, )"
             },
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
@@ -331,16 +335,16 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             },
             "Mopups": {
@@ -349,7 +353,7 @@
             },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
-              "version": "[24.2.9, )"
+              "version": "[25.2.6, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -361,7 +365,7 @@
             },
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
-              "version": "[24.2.8, )"
+              "version": "[25.2.6, )"
             }
           },
           "imports": [
@@ -384,14 +388,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
             "AWSSDK.S3": {
               "target": "Package",
-              "version": "[3.7.307.25, )"
+              "version": "[3.7.308.5, )"
             },
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
@@ -403,11 +407,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Mopups": {
               "target": "Package",
@@ -415,7 +419,7 @@
             },
             "Syncfusion.Maui.Buttons": {
               "target": "Package",
-              "version": "[24.2.9, )"
+              "version": "[25.2.6, )"
             },
             "Syncfusion.Maui.DataGrid": {
               "target": "Package",
@@ -427,7 +431,7 @@
             },
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",
-              "version": "[24.2.8, )"
+              "version": "[25.2.6, )"
             }
           },
           "imports": [
@@ -455,7 +459,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

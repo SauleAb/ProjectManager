@@ -1,7 +1,6 @@
 using augalinga.Data.Access;
 using augalinga.Data.Entities;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Syncfusion.Maui.Scheduler;
 using System;
 using System.Globalization;
 
