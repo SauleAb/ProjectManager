@@ -3331,7 +3331,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -6560,7 +6561,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -9789,7 +9791,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -13018,7 +13021,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -16247,7 +16251,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -19476,7 +19481,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -22705,7 +22711,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -25934,7 +25941,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -27698,7 +27706,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -29505,7 +29514,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -31312,7 +31322,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -33119,7 +33130,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -34926,7 +34938,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -36733,7 +36746,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -38540,7 +38554,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -40331,7 +40346,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -41900,7 +41916,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -43426,7 +43443,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -44952,7 +44970,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -46478,7 +46497,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -48004,7 +48024,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -49530,7 +49551,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -51056,7 +51078,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -52569,7 +52592,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -54363,7 +54387,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -56046,7 +56071,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -57729,7 +57755,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -59412,7 +59439,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -61095,7 +61123,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -62778,7 +62807,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -64461,7 +64491,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -66143,7 +66174,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.Maui.Controls": "8.0.40",
+          "Microsoft.Maui.Controls": "8.0.21",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.21",
           "Syncfusion.Maui.Scheduler": "25.2.6"
         },
         "compile": {
@@ -74094,47 +74126,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.Maui.Controls from 8.0.40 to 8.0.21. Reference the package directly from the project to select a different version. \r\n LandscapeProjectsManager -> augalinga.Data -> Microsoft.Maui.Controls (>= 8.0.40) \r\n LandscapeProjectsManager -> Microsoft.Maui.Controls (>= 8.0.21)",
-      "libraryId": "Microsoft.Maui.Controls",
-      "targetGraphs": [
-        "net8.0-android34.0",
-        "net8.0-android34.0/android-arm",
-        "net8.0-android34.0/android-arm64",
-        "net8.0-android34.0/android-x64",
-        "net8.0-android34.0/android-x86",
-        "net8.0-android34.0/iossimulator-x64",
-        "net8.0-android34.0/maccatalyst-x64",
-        "net8.0-android34.0/win10-x64",
-        "net8.0-ios17.2",
-        "net8.0-ios17.2/android-arm",
-        "net8.0-ios17.2/android-arm64",
-        "net8.0-ios17.2/android-x64",
-        "net8.0-ios17.2/android-x86",
-        "net8.0-ios17.2/iossimulator-x64",
-        "net8.0-ios17.2/maccatalyst-x64",
-        "net8.0-ios17.2/win10-x64",
-        "net8.0-maccatalyst17.2",
-        "net8.0-maccatalyst17.2/android-arm",
-        "net8.0-maccatalyst17.2/android-arm64",
-        "net8.0-maccatalyst17.2/android-x64",
-        "net8.0-maccatalyst17.2/android-x86",
-        "net8.0-maccatalyst17.2/iossimulator-x64",
-        "net8.0-maccatalyst17.2/maccatalyst-x64",
-        "net8.0-maccatalyst17.2/win10-x64",
-        "net8.0-windows10.0.19041",
-        "net8.0-windows10.0.19041/android-arm",
-        "net8.0-windows10.0.19041/android-arm64",
-        "net8.0-windows10.0.19041/android-x64",
-        "net8.0-windows10.0.19041/android-x86",
-        "net8.0-windows10.0.19041/iossimulator-x64",
-        "net8.0-windows10.0.19041/maccatalyst-x64",
-        "net8.0-windows10.0.19041/win10-x64"
-      ]
-    }
-  ]
+  }
 }
