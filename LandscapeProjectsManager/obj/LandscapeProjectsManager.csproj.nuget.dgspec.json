@@ -73,7 +73,7 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[8.0.40, )"
             },
             "Syncfusion.Maui.Scheduler": {
               "target": "Package",

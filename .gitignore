@@ -13,6 +13,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+augalinga.ApplicationLayer/obj/
+augalinga.ApplicationLayer/bin/
+
 # Mono auto generated files
 mono_crash.*
 
